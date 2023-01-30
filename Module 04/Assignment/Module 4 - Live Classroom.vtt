@@ -1,0 +1,6754 @@
+﻿WEBVTT
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/22-0
+00:00:11.487 --> 00:00:15.825
+OK, we're all set then. Alright,
+so this is module 4. We're going
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/22-1
+00:00:15.825 --> 00:00:16.417
+to cover.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/26-0
+00:00:18.777 --> 00:00:19.747
+We're going to cover.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/32-0
+00:00:20.737 --> 00:00:23.407
+Problem based operations for
+this module.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/66-0
+00:00:23.967 --> 00:00:28.279
+Umm, I'm going to cover a little
+bit of feedback and a couple of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/66-1
+00:00:28.279 --> 00:00:32.194
+things with the try catch
+blocks, but this one is going to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/66-2
+00:00:32.194 --> 00:00:36.307
+be a specifically about reading
+from files writing two files.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/99-0
+00:00:37.447 --> 00:00:40.812
+Again, this should cover or. I'm
+sorry this module, all your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/99-1
+00:00:40.812 --> 00:00:44.121
+assignments and everything
+should cover the same content or
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/99-2
+00:00:44.121 --> 00:00:47.485
+same topic, so that should help
+with. I guess keeping on the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/99-3
+00:00:47.485 --> 00:00:49.857
+same page for all the assignment
+stuff so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/107-0
+00:00:50.377 --> 00:00:55.167
+Umm, the assignments, the
+programming ones are similar.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/156-0
+00:00:55.997 --> 00:00:59.725
+And also different. They both
+will do one part of the file
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/156-1
+00:00:59.725 --> 00:01:03.643
+based operations but one will do
+a little bit more. But again
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/156-2
+00:01:03.643 --> 00:01:07.560
+I'll walk you through a lot of
+this in the demo and hopefully
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/156-3
+00:01:07.560 --> 00:01:10.909
+leave you with enough
+information and sort of like a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/156-4
+00:01:10.909 --> 00:01:13.247
+template that you can also
+complete.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/161-0
+00:01:15.177 --> 00:01:16.167
+You're going to be assignment.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/169-0
+00:01:17.157 --> 00:01:19.247
+So alright, let's move along
+now.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/224-0
+00:01:20.807 --> 00:01:24.363
+OK, alright. Not too, brother.
+OK, alright. So academic
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/224-1
+00:01:24.363 --> 00:01:28.300
+integrity usually write about
+now is one thing starts to come
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/224-2
+00:01:28.300 --> 00:01:32.109
+up with academic integrity
+violations, specifically dealing
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/224-3
+00:01:32.109 --> 00:01:35.919
+with coursework that you find
+outside or solutions that you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/224-4
+00:01:35.919 --> 00:01:40.046
+find outside of the course. I've
+mentioned this already. I think
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/224-5
+00:01:40.046 --> 00:01:43.856
+a couple times at least, but
+it's really important that you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/224-6
+00:01:43.856 --> 00:01:46.777
+don't do it even if you
+reference an outside.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/234-0
+00:01:47.547 --> 00:01:50.967
+Well, reference, I asked if you
+reference an outside source.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/284-0
+00:01:51.467 --> 00:01:55.190
+Uh, from outside of this course
+and you reference that in your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/284-1
+00:01:55.190 --> 00:01:58.912
+solution that still not correct.
+This is obviously not talking
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/284-2
+00:01:58.912 --> 00:02:02.576
+about discussion posts because
+that you should be referencing
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/284-3
+00:02:02.576 --> 00:02:06.476
+where you're getting information
+from as it's typically not gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/284-4
+00:02:06.476 --> 00:02:10.317
+be your own except for like your
+opinion and explanations on it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/304-0
+00:02:11.197 --> 00:02:16.011
+But for coding assignments
+especially, it should be all and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/304-1
+00:02:16.011 --> 00:02:18.337
+Tyler entirely your own work.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-0
+00:02:19.397 --> 00:02:22.914
+With the exception of, if I
+provide you something right. So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-1
+00:02:22.914 --> 00:02:26.373
+if if for the assignment I give
+you some of my code for my
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-2
+00:02:26.373 --> 00:02:30.242
+demos, you can use that to piece
+together your assignment. If you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-3
+00:02:30.242 --> 00:02:33.876
+see how I'm using something to
+find a sorted array or to sort
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-4
+00:02:33.876 --> 00:02:37.393
+numbers that you can use that
+because I've given it to you.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-5
+00:02:37.393 --> 00:02:41.086
+Now, if you're looking for this
+solution outside of the course
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-6
+00:02:41.086 --> 00:02:44.897
+and you copy that and you paste
+it in your assignment and submit
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-7
+00:02:44.897 --> 00:02:48.179
+it as if you had done it
+yourself, that's where we have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/395-8
+00:02:48.179 --> 00:02:48.707
+problems.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/426-0
+00:02:49.987 --> 00:02:54.183
+And I've been teaching this for
+a little while now. It's so it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/426-1
+00:02:54.183 --> 00:02:58.314
+there's certain things that I'll
+see with an assignment that'll
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/426-2
+00:02:58.314 --> 00:03:00.057
+kind of set off a red flag.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/438-0
+00:03:01.927 --> 00:03:05.457
+Uh, to kind of let me know that
+it was copied so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-0
+00:03:08.947 --> 00:03:12.103
+Yeah, I I would just say, you
+know, avoid it at all costs,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-1
+00:03:12.103 --> 00:03:15.313
+even if it comes from a tutor,
+I'm more than happy to help.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-2
+00:03:15.313 --> 00:03:18.736
+I've I've met with a handful of
+you now and walked you through.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-3
+00:03:18.736 --> 00:03:21.893
+I mean, anything that you need
+help with. So I'm more than
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-4
+00:03:21.893 --> 00:03:24.888
+happy to do that and meet with
+you. We've set up a time
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-5
+00:03:24.888 --> 00:03:28.044
+whenever we can and we can go
+through things together. I'd
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-6
+00:03:28.044 --> 00:03:31.147
+much rather do that than to have
+to have someone resubmit
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-7
+00:03:31.147 --> 00:03:34.410
+assignment or deal with the
+academic integrity stuff because
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-8
+00:03:34.410 --> 00:03:37.406
+if it's a blatant copy and
+paste, that doesn't look too
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/515-9
+00:03:37.406 --> 00:03:38.957
+well and it's pretty hard to.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/532-0
+00:03:39.077 --> 00:03:42.744
+Are you against? So yeah, if you
+need any help, let me know. You
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/532-1
+00:03:42.744 --> 00:03:45.057
+can use some tutoring services
+although.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/551-0
+00:03:46.657 --> 00:03:49.915
+Honestly, from feedback I get,
+it's probably just best to reach
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/551-1
+00:03:49.915 --> 00:03:53.224
+out to me. So alright, hopefully
+that clears it up a little bit.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/551-2
+00:03:53.224 --> 00:03:54.547
+Just don't copy and paste.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/569-0
+00:03:56.087 --> 00:04:00.235
+OK, Java versus JavaScript. I
+see this kind of confused a lot.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/569-1
+00:04:00.235 --> 00:04:03.987
+Java and JavaScript or if
+someone has learned JavaScript
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/569-2
+00:04:03.987 --> 00:04:04.777
+in the past.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/602-0
+00:04:06.417 --> 00:04:09.959
+And is kind of getting confused
+with some of the terminology.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/602-1
+00:04:09.959 --> 00:04:13.273
+Well, that's because Java and
+JavaScript are like totally
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/602-2
+00:04:13.273 --> 00:04:16.643
+different. They're nothing
+alike. Ohh I can't remember the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/602-3
+00:04:16.643 --> 00:04:18.357
+history behind the name of it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/672-0
+00:04:19.997 --> 00:04:23.965
+But they're they're not the same
+languages. Ones made for like
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/672-1
+00:04:23.965 --> 00:04:27.555
+web-based stuff. The other one
+is not really, so they're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/672-2
+00:04:27.555 --> 00:04:31.712
+definitely completely different.
+If you were to code something in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/672-3
+00:04:31.712 --> 00:04:35.680
+JavaScript and submit that, I'm
+sorry, but that would not be a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/672-4
+00:04:35.680 --> 00:04:39.018
+Java program as they're
+completely different. So I'm
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/672-5
+00:04:39.018 --> 00:04:42.986
+just keep that in mind if you
+are confused about it, just make
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/672-6
+00:04:42.986 --> 00:04:46.702
+sure that you are doing your
+work in Java. If you're using
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/672-7
+00:04:46.702 --> 00:04:47.017
+that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/705-0
+00:04:48.647 --> 00:04:52.345
+I guess JavaScript language for
+any discussion posts just also
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/705-1
+00:04:52.345 --> 00:04:55.809
+keep in mind that that will
+probably be confusing to other
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/705-2
+00:04:55.809 --> 00:04:59.037
+students as JavaScript does not
+look much like Java O.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/739-0
+00:05:00.537 --> 00:05:03.529
+Just wanted to clear that up,
+alright, the discussion
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/739-1
+00:05:03.529 --> 00:05:06.687
+overview, we're response
+requirements first, I just want
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/739-2
+00:05:06.687 --> 00:05:10.011
+to make sure that everyone is
+aware. I do state it you know
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/739-3
+00:05:10.011 --> 00:05:12.947
+every lecture but it probably
+gets missed sometimes.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/774-0
+00:05:14.057 --> 00:05:17.175
+Your initial discussion post
+should be at least two
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/774-1
+00:05:17.175 --> 00:05:20.473
+paragraphs, and each paragraph
+should be at least four
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/774-2
+00:05:20.473 --> 00:05:24.190
+sentences. So if you think about
+it, you should have at least
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/774-3
+00:05:24.190 --> 00:05:28.088
+eight sentences total. I hate to
+be one to, like, be nitpicky at
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/774-4
+00:05:28.088 --> 00:05:29.227
+counting sentences.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/801-0
+00:05:29.747 --> 00:05:33.077
+Uh, but when we're doing our
+discussions and you're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/801-1
+00:05:33.077 --> 00:05:37.047
+submitting a ton of stuff with
+lots of code in it, it's gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/801-2
+00:05:37.047 --> 00:05:40.632
+be best if we do have some sort
+of explanation with it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/801-3
+00:05:40.632 --> 00:05:41.977
+Otherwise we're just.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/836-0
+00:05:42.987 --> 00:05:46.372
+Putting in a lot of code
+examples and nothing else along
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/836-1
+00:05:46.372 --> 00:05:50.055
+with it, it's kind of hard for
+anyone else to understand what
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/836-2
+00:05:50.055 --> 00:05:53.500
+you're trying to to show
+everyone, so it's important that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/836-3
+00:05:53.500 --> 00:05:55.697
+we at least meet those
+requirements.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/893-0
+00:05:56.487 --> 00:05:59.140
+OK, importance of error
+handling. I think everyone did
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/893-1
+00:05:59.140 --> 00:06:01.987
+pretty good on this. That's
+typically how it is with these
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/893-2
+00:06:01.987 --> 00:06:05.123
+discussions. So I'm usually not
+too worried about it, especially
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/893-3
+00:06:05.123 --> 00:06:07.969
+if we cover the content in
+class. I think the first couple
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/893-4
+00:06:07.969 --> 00:06:11.105
+of modules are really something
+that's like look up on your own.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/893-5
+00:06:11.105 --> 00:06:14.289
+It doesn't help that the lecture
+is also on the night that you're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/893-6
+00:06:14.289 --> 00:06:17.087
+supposed to have your initial
+discussion post to do, but.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/928-0
+00:06:18.047 --> 00:06:21.177
+What I'm seeing a lot is pretty
+much everyone is, at least on
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/928-1
+00:06:21.177 --> 00:06:24.307
+the same page with it. There's a
+lot of great points that are
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/928-2
+00:06:24.307 --> 00:06:27.588
+being addressed by a lot of you
+in in different perspectives, so
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/928-3
+00:06:27.588 --> 00:06:28.497
+it's great to see.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/951-0
+00:06:29.607 --> 00:06:33.596
+Now, along with that topic,
+something that I've been asked a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/951-1
+00:06:33.596 --> 00:06:37.782
+lot is about the different types
+of use of try catch blocks and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/951-2
+00:06:37.782 --> 00:06:39.417
+where to put them really.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/953-0
+00:06:40.077 --> 00:06:40.647
+Umm.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/957-0
+00:06:41.817 --> 00:06:43.107
+Let me see here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/959-0
+00:06:46.657 --> 00:06:47.247
+O.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/974-0
+00:06:47.887 --> 00:06:51.560
+There's sort of an argument for
+whether or not you should put
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/974-1
+00:06:51.560 --> 00:06:52.567
+try catch blocks.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1032-0
+00:06:53.767 --> 00:06:57.326
+Essentially around your whole
+program. Or do you just put it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1032-1
+00:06:57.326 --> 00:07:01.118
+around certain sections of code
+that you want to do some type of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1032-2
+00:07:01.118 --> 00:07:04.851
+calculations for and I'll just
+walk you through kind of what it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1032-3
+00:07:04.851 --> 00:07:08.235
+looks like if we are going to
+put try catch blocks around
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1032-4
+00:07:08.235 --> 00:07:11.852
+everything or just different
+sections and you'll see how some
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1032-5
+00:07:11.852 --> 00:07:15.469
+of this can bubble up, you'll
+see what I mean by that because
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1032-6
+00:07:15.469 --> 00:07:17.277
+I reference that or I say that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1084-0
+00:07:17.767 --> 00:07:21.028
+Umm, I think I saw that in the
+past module the past lecture
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1084-1
+00:07:21.028 --> 00:07:24.072
+about how you know these
+exceptions could bubble up, so
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1084-2
+00:07:24.072 --> 00:07:27.279
+I'll show you what that looks
+like and hopefully this will
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1084-3
+00:07:27.279 --> 00:07:30.431
+give you a better. I guess
+understanding of how this will
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1084-4
+00:07:30.431 --> 00:07:33.692
+work now in terms of where
+should you put it. You typically
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1084-5
+00:07:33.692 --> 00:07:36.954
+don't want to put all of your
+code in a try catch or in the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1084-6
+00:07:36.954 --> 00:07:37.497
+try block.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1128-0
+00:07:39.017 --> 00:07:42.557
+But for this course, that's
+completely fine. It's really not
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1128-1
+00:07:42.557 --> 00:07:46.330
+gonna cause a problem. There are
+certain use cases where you may
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1128-2
+00:07:46.330 --> 00:07:50.103
+not want to do that. If you have
+a large program and you're just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1128-3
+00:07:50.103 --> 00:07:53.875
+constantly putting everything to
+try catch blocks a lot of times
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1128-4
+00:07:53.875 --> 00:07:56.487
+that will create a lot of bloat
+or a lot of.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1178-0
+00:07:58.067 --> 00:08:01.973
+It'll slow things down because
+essentially you could be logging
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1178-1
+00:08:01.973 --> 00:08:05.757
+things in many places and you
+really don't have to be. And if
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1178-2
+00:08:05.757 --> 00:08:09.113
+you have track cashbox
+everywhere, things can start to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1178-3
+00:08:09.113 --> 00:08:12.714
+get confusing where you're
+handling things and you may not
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1178-4
+00:08:12.714 --> 00:08:15.277
+need to handle them in certain
+spots and.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1197-0
+00:08:16.537 --> 00:08:20.093
+It can just create kind of a
+mess, so you should be throwing
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1197-1
+00:08:20.093 --> 00:08:23.766
+all your code or I should say
+throwing code in trycatch blocks
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1197-2
+00:08:23.766 --> 00:08:25.457
+when it makes the most sense.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1206-0
+00:08:26.357 --> 00:08:29.063
+O I'll kind of show what that's
+like in just a second here, but
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1206-1
+00:08:29.063 --> 00:08:29.317
+first.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1275-0
+00:08:30.687 --> 00:08:33.995
+We'll go ahead and walk through
+this real quick here. What I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1275-1
+00:08:33.995 --> 00:08:37.303
+have here is I just have this
+program, it's got 3 methods in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1275-2
+00:08:37.303 --> 00:08:40.774
+it. Each one is just gonna print
+out like it's inside of method
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1275-3
+00:08:40.774 --> 00:08:44.081
+one. It's exiting method one
+inside method 2, exiting method
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1275-4
+00:08:44.081 --> 00:08:47.281
+two inside method three and
+inside method three it's going
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1275-5
+00:08:47.281 --> 00:08:50.209
+to try and divide by zero. So
+we're going to throw an
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1275-6
+00:08:50.209 --> 00:08:53.626
+exception there. We're going to
+cause an exception and then it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1275-7
+00:08:53.626 --> 00:08:56.337
+should print out exiting method
+three as well so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1297-0
+00:08:57.687 --> 00:09:01.176
+Assuming this works, I'm just
+going to make it not have a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1297-1
+00:09:01.176 --> 00:09:04.666
+problem. We'll go ahead and
+actually continue through and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1297-2
+00:09:04.666 --> 00:09:05.087
+run it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-0
+00:09:05.997 --> 00:09:09.235
+Except that's not what I wanted.
+There you go. OK, so if nothing
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-1
+00:09:09.235 --> 00:09:12.424
+wrong happens. What this looks
+like here, you should say inside
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-2
+00:09:12.424 --> 00:09:15.512
+main method, which is what we
+happened first. The first thing
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-3
+00:09:15.512 --> 00:09:18.402
+we do in the main method is
+we're calling method one. I'm
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-4
+00:09:18.402 --> 00:09:21.590
+nesting these. So inside method
+one it's gonna call method two.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-5
+00:09:21.590 --> 00:09:24.579
+Inside method two it's gonna
+call method three and method 3
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-6
+00:09:24.579 --> 00:09:27.767
+is gonna do some math and print
+out the result. So what you see
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-7
+00:09:27.767 --> 00:09:31.006
+here at the bottom, it's saying
+it's inside method or inside the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-8
+00:09:31.006 --> 00:09:34.194
+main method. It was inside one
+inside two and then while it was
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1383-9
+00:09:34.194 --> 00:09:36.087
+inside method three, we did the
+math.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1438-0
+00:09:36.167 --> 00:09:39.404
+You did 5 / 1, so the answer is
+5 and then we're exiting, so
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1438-1
+00:09:39.404 --> 00:09:42.694
+you'll see it'll work its way
+back out so it says exit method
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1438-2
+00:09:42.694 --> 00:09:45.984
+3 exiting method two, method one
+and then finally exiting the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1438-3
+00:09:45.984 --> 00:09:49.168
+main method. So it goes inside
+all of those because they're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1438-4
+00:09:49.168 --> 00:09:52.458
+nested, comes right back out.
+Now inside that furthest one in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1438-5
+00:09:52.458 --> 00:09:55.377
+method three, I'm going to throw
+an exception in here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-0
+00:09:56.077 --> 00:09:59.285
+Now if you see I have try catch
+blocks, they're on every single
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-1
+00:09:59.285 --> 00:10:02.443
+basically chunk we have here. I
+have one within each method as
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-2
+00:10:02.443 --> 00:10:05.651
+well as the main method there.
+So what that will look like if I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-3
+00:10:05.651 --> 00:10:08.808
+run it is. You'll see it says
+inside main method inside method
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-4
+00:10:08.808 --> 00:10:12.066
+one method two method three and
+then it's gonna actually tell us
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-5
+00:10:12.066 --> 00:10:15.224
+we have an exception. We try to
+divide by zero so it's telling
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-6
+00:10:15.224 --> 00:10:18.232
+us this right here arithmetic
+exception in module 4 lesson.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-7
+00:10:18.232 --> 00:10:21.189
+And I actually have it tell us
+what line we're at. So if I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-8
+00:10:21.189 --> 00:10:24.347
+click on it, it will highlight
+the line that we have the error
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1534-9
+00:10:24.347 --> 00:10:24.497
+at.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1559-0
+00:10:25.367 --> 00:10:28.461
+It's really useful to have. I
+suggest taking this line and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1559-1
+00:10:28.461 --> 00:10:31.397
+putting it in your programs
+whenever you want to handle
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1559-2
+00:10:31.397 --> 00:10:34.701
+exceptions, because if you do
+have one, it'll tell you exactly
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1559-3
+00:10:34.701 --> 00:10:35.697
+where it came from.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1572-0
+00:10:36.777 --> 00:10:39.681
+So anyway, so we're going in
+there. It actually prints out
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1572-1
+00:10:39.681 --> 00:10:39.927
+that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-0
+00:10:41.987 --> 00:10:45.335
+I'm sorry it doesn't print the
+result out because the exception
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-1
+00:10:45.335 --> 00:10:48.264
+happened aligned 40, so it
+doesn't make it that far. It
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-2
+00:10:48.264 --> 00:10:51.455
+jumps out of the into the catch
+block and then it prints out
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-3
+00:10:51.455 --> 00:10:54.751
+what the exception was. But as
+you can see it continues on. It
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-4
+00:10:54.751 --> 00:10:58.047
+goes and says OK, we're exiting
+method three and then it works
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-5
+00:10:58.047 --> 00:11:01.290
+its way all the way back up.
+Method Two, method one blah blah
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-6
+00:11:01.290 --> 00:11:04.324
+blah all the way out so that
+works as expected here where
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-7
+00:11:04.324 --> 00:11:07.672
+we're catching that exception in
+method 3 and that's where it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-8
+00:11:07.672 --> 00:11:10.497
+actually printing it out. But
+since we're handling it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1661-9
+00:11:10.497 --> 00:11:11.857
+properly, it can actually.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1675-0
+00:11:11.957 --> 00:11:14.922
+Go ahead and continue on the
+code as if it's just fine. We
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1675-1
+00:11:14.922 --> 00:11:16.027
+handled the exception.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1730-0
+00:11:16.967 --> 00:11:19.842
+In this case, we're just
+printing it out, but what we can
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1730-1
+00:11:19.842 --> 00:11:22.865
+also do is throw that exception
+if we don't want to actually
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1730-2
+00:11:22.865 --> 00:11:25.789
+handle it at this point and
+we'll see what that looks like
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1730-3
+00:11:25.789 --> 00:11:29.061
+right here. So I'm gonna comment
+that out. Instead. I'm gonna say
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1730-4
+00:11:29.061 --> 00:11:31.985
+throw E I'm throwing that
+exception. That object there. So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1730-5
+00:11:31.985 --> 00:11:34.017
+now I'm gonna go ahead and run
+it again.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-0
+00:11:35.057 --> 00:11:38.351
+And you'll see now I have inside
+main method inside method one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-1
+00:11:38.351 --> 00:11:41.593
+method two method three it threw
+this exception which we were
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-2
+00:11:41.593 --> 00:11:44.731
+expecting right dividing by
+zero. But now instead of saying
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-3
+00:11:44.731 --> 00:11:47.973
+exit method three it just goes
+exit method two method one and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-4
+00:11:47.973 --> 00:11:51.110
+then main method and that's
+because in this part we decided
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-5
+00:11:51.110 --> 00:11:54.038
+to say hey, we're not gonna
+handle it right here. We're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-6
+00:11:54.038 --> 00:11:57.176
+gonna pass it out. We're going
+to bubble up to the top. And
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-7
+00:11:57.176 --> 00:12:00.418
+which case the next try catch
+block is gonna be inside method
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1809-8
+00:12:00.418 --> 00:12:00.627
+too.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1817-0
+00:12:01.497 --> 00:12:03.677
+So that's what we see here in
+method 2.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-0
+00:12:05.137 --> 00:12:08.418
+That is being caught and it's
+actually just able to continue
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-1
+00:12:08.418 --> 00:12:11.484
+on. So because we're throwing
+it. So we're gonna go into
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-2
+00:12:11.484 --> 00:12:14.658
+method 2 here. And you know
+what? Maybe I should just walk
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-3
+00:12:14.658 --> 00:12:18.154
+through it. But you can see that
+it actually says exiting method
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-4
+00:12:18.154 --> 00:12:21.381
+too. So what actually ran that
+code? It continues along and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-5
+00:12:21.381 --> 00:12:24.878
+then we go to method one exiting
+method one and then finally the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-6
+00:12:24.878 --> 00:12:28.428
+main method. So the only code it
+didn't actually hit was the part
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-7
+00:12:28.428 --> 00:12:31.601
+that it is the part after
+directly after it messed up with
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1896-8
+00:12:31.601 --> 00:12:34.237
+the dividing by zero because it
+didn't hit this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1912-0
+00:12:34.377 --> 00:12:36.781
+But once we finally did it, we
+were able to catch it, and then
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1912-1
+00:12:36.781 --> 00:12:38.917
+we could just basically pass
+that along all the way up.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1917-0
+00:12:40.297 --> 00:12:41.967
+So I could also.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1922-0
+00:12:44.967 --> 00:12:45.977
+Let's see here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1932-0
+00:12:50.497 --> 00:12:53.247
+We'll just go through it there,
+alright inside method.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1945-0
+00:12:53.977 --> 00:12:57.147
+Ah, that's because I just
+stepped over it. Alright, let's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1945-1
+00:12:57.147 --> 00:12:57.967
+try this again.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1951-0
+00:12:59.027 --> 00:13:01.027
+Alright, step into it here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1991-0
+00:13:02.037 --> 00:13:04.925
+Just kidding. Not that one.
+Alright, step into this on
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1991-1
+00:13:04.925 --> 00:13:08.180
+method one. OK, we're gonna step
+into method two, so we're in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1991-2
+00:13:08.180 --> 00:13:11.330
+method two. We're gonna step
+into method 3. Alright, so now
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/1991-3
+00:13:11.330 --> 00:13:14.427
+we're inside. Method three.
+We're going to divide by zero.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2046-0
+00:13:15.717 --> 00:13:18.671
+And it catches it, but since
+we're not actually handling it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2046-1
+00:13:18.671 --> 00:13:21.723
+here, we're just throwing it,
+right? So this means we're just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2046-2
+00:13:21.723 --> 00:13:24.726
+passing it back along. We're
+gonna say, hey, we're not gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2046-3
+00:13:24.726 --> 00:13:27.975
+handle this. And this one, we're
+just gonna continue. That's what
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2046-4
+00:13:27.975 --> 00:13:31.125
+it's doing here. So when we step
+into that or over this, you'll
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2046-5
+00:13:31.125 --> 00:13:34.325
+see that it bounces back and it
+catches it in the method. Two is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2046-6
+00:13:34.325 --> 00:13:34.817
+catchment.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2053-0
+00:13:35.137 --> 00:13:37.367
+Yeah, catch my or catch block
+here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-0
+00:13:38.617 --> 00:13:42.022
+And now what that looks like is
+it just jumps into here and this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-1
+00:13:42.022 --> 00:13:45.428
+is now where it prints out that
+exception. O. If you saw that it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-2
+00:13:45.428 --> 00:13:48.728
+went from this throw E straight
+into method two. That's why we
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-3
+00:13:48.728 --> 00:13:51.557
+weren't able to print out
+exiting method 3 because we
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-4
+00:13:51.557 --> 00:13:54.962
+never made it that far. Instead
+we just bounced it out. Just say
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-5
+00:13:54.962 --> 00:13:58.263
+hey, no catch that in the one
+above this which is here. So now
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-6
+00:13:58.263 --> 00:14:01.458
+it can print it out. And now
+we've handled it properly which
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-7
+00:14:01.458 --> 00:14:04.654
+means we can actually continue
+on with our codes saying exit
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2134-8
+00:14:04.654 --> 00:14:08.007
+method two and then it will go
+on and and then say exit method.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-0
+00:14:08.157 --> 00:14:11.398
+Non blah blah. If you notice
+when I was when it was just here
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-1
+00:14:11.398 --> 00:14:14.849
+it actually skipped over line 22
+it didn't print out anything and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-2
+00:14:14.849 --> 00:14:17.776
+that's because we already
+handled it. So there was not.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-3
+00:14:17.776 --> 00:14:21.018
+There wasn't an exception that
+needed to be caught because we
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-4
+00:14:21.018 --> 00:14:24.259
+already handled it. So that's
+why it's bubbling back out here
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-5
+00:14:24.259 --> 00:14:27.709
+and it's saying, hey, all right,
+cool. We've got all these. We're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-6
+00:14:27.709 --> 00:14:31.160
+exiting the methods properly and
+so on. So that's what that looks
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-7
+00:14:31.160 --> 00:14:34.035
+like if we throw it. This just
+allows it to be handled
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2207-8
+00:14:34.035 --> 00:14:37.067
+elsewhere and not directly where
+we've caught it here so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2214-0
+00:14:37.967 --> 00:14:40.287
+The other thing I wanted to
+point out then is.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2229-0
+00:14:41.107 --> 00:14:46.157
+I guess what would you use case
+be to not want to have it?
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2280-0
+00:14:47.727 --> 00:14:50.943
+Inside of basically every
+method, right? We only want it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2280-1
+00:14:50.943 --> 00:14:54.498
+to be in a specific place. We
+don't wanna just dump everything
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2280-2
+00:14:54.498 --> 00:14:57.828
+in a try block. We have a
+specific use case we want for it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2280-3
+00:14:57.828 --> 00:15:01.383
+that would make sense to put it
+in a very specific area and in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2280-4
+00:15:01.383 --> 00:15:04.938
+this case I have this program
+here. This one is just finishing
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2280-5
+00:15:04.938 --> 00:15:06.687
+up, so hopefully it works here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-0
+00:15:07.677 --> 00:15:10.667
+I just have a wire loop, right?
+So it's basically just taking
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-1
+00:15:10.667 --> 00:15:13.126
+inputs just like your BMI
+programs. I think you'll
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-2
+00:15:13.126 --> 00:15:16.020
+actually have to start doing
+this one. I don't think you've
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-3
+00:15:16.020 --> 00:15:19.010
+had to loop through it yet, but
+you will. You'll have to loop
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-4
+00:15:19.010 --> 00:15:21.952
+through the inputs so you can
+take it repeatedly. So I guess
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-5
+00:15:21.952 --> 00:15:24.893
+you could probably use this to
+help you. Alright, so this is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-6
+00:15:24.893 --> 00:15:27.835
+asking for your name, your age
+and your years, and then like
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-7
+00:15:27.835 --> 00:15:30.680
+your favorite color. However,
+right after it asks your age
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-8
+00:15:30.680 --> 00:15:33.767
+when it takes that input, it's
+gonna go ahead and print the age
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-9
+00:15:33.767 --> 00:15:36.612
+out, but in order to do that I'm
+converting it first to an
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2384-10
+00:15:36.612 --> 00:15:37.287
+integer value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-0
+00:15:38.977 --> 00:15:42.433
+Let me just fix this right here
+already have a problem. Alright,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-1
+00:15:42.433 --> 00:15:45.464
+it's gonna convert it to an
+integer value and I'm taking
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-2
+00:15:45.464 --> 00:15:48.494
+them as a string for the input.
+So assuming that type in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-3
+00:15:48.494 --> 00:15:51.791
+something that isn't a number it
+should cause an exception to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-4
+00:15:51.791 --> 00:15:54.609
+happen and we'll see what
+happens with that. So that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-5
+00:15:54.609 --> 00:15:57.693
+happens directly after you enter
+your age. It will do the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-6
+00:15:57.693 --> 00:16:00.936
+calculations and then after that
+it's going to ask what your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-7
+00:16:00.936 --> 00:16:04.445
+favorite color is and then after
+that it will say press Q to quit
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2457-8
+00:16:04.445 --> 00:16:05.987
+or any other key to continue.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2476-0
+00:16:07.907 --> 00:16:12.013
+I hope it works because I didn't
+actually test it yet and I did
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2476-1
+00:16:12.013 --> 00:16:15.477
+it really quickly. So alright,
+so let's go ahead and.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2483-0
+00:16:16.507 --> 00:16:17.817
+Let me see if I can.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2496-0
+00:16:18.777 --> 00:16:21.487
+Put a breakpoint and we'll see
+what happens. I'm curious now.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2503-0
+00:16:22.477 --> 00:16:25.727
+And let's see here favorite
+color.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2532-0
+00:16:26.987 --> 00:16:29.908
+Blue. Sure. OK. So then if I
+press a key, it's going to loop
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2532-1
+00:16:29.908 --> 00:16:32.782
+through it, all right, this is
+what we want to see. So it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2532-2
+00:16:32.782 --> 00:16:34.937
+gonna continuously loop through
+it actually.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2538-0
+00:16:36.847 --> 00:16:37.937
+I guess I'm not really.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2551-0
+00:16:39.587 --> 00:16:43.083
+I don't really need this here,
+alright? I guess that was only
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2551-1
+00:16:43.083 --> 00:16:43.647
+matter so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2553-0
+00:16:44.827 --> 00:16:45.297
+OK.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2573-0
+00:16:47.017 --> 00:16:53.658
+For blue and we can just keep
+continuing, I guess I can just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2573-1
+00:16:53.658 --> 00:16:57.577
+press enter, let's say John 50
+and.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2629-0
+00:16:58.647 --> 00:17:02.386
+Green. OK, so it'll keep looping
+through this and it's just fine.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2629-1
+00:17:02.386 --> 00:17:06.069
+So if I were to continue though,
+and I enter a value that is not
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2629-2
+00:17:06.069 --> 00:17:09.072
+a number, let's see what
+happens. All right, so it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2629-3
+00:17:09.072 --> 00:17:12.358
+gonna say incorrect value.
+Please try again and then it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2629-4
+00:17:12.358 --> 00:17:16.041
+gonna ask us for the name again.
+It's gonna start over right? In
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2629-5
+00:17:16.041 --> 00:17:17.797
+which case, maybe we'll fix it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2639-0
+00:17:18.647 --> 00:17:21.277
+And we'll actually do the age
+right and we'll say.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2655-0
+00:17:21.697 --> 00:17:25.751
+UH-45 favorite color is, let's
+say, it's also green, and we're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2655-1
+00:17:25.751 --> 00:17:28.647
+going to go ahead and quit this
+time around.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2678-0
+00:17:29.587 --> 00:17:33.564
+And it didn't quit. OK, so that
+obviously it's something that I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2678-1
+00:17:33.564 --> 00:17:37.416
+need to fix. OK, so my point
+that I wanna show here though is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2678-2
+00:17:37.416 --> 00:17:37.727
+that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2717-0
+00:17:38.567 --> 00:17:41.995
+What how it handles this
+exception here? So I'm gonna put
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2717-1
+00:17:41.995 --> 00:17:45.601
+this break point right here
+where it's at and we're gonna go
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2717-2
+00:17:45.601 --> 00:17:49.088
+ahead and debug it and you'll
+see what's happening and why
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2717-3
+00:17:49.088 --> 00:17:51.807
+this is kind of a special
+situation, I guess.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2728-0
+00:17:54.067 --> 00:17:58.577
+Alright, I think I'm alright, so
+I'll continue here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2753-0
+00:18:00.377 --> 00:18:04.072
+Alright, I'm gonna go ahead and
+mess it up already. Alright? So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2753-1
+00:18:04.072 --> 00:18:07.709
+right now I entered my age and
+it's gonna go ahead and try and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2753-2
+00:18:07.709 --> 00:18:09.787
+convert that into an integer
+value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2765-0
+00:18:10.827 --> 00:18:13.052
+Umm. Let's see here. First I
+want to make sure I'm not
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2765-1
+00:18:13.052 --> 00:18:13.537
+missing any.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2775-0
+00:18:15.497 --> 00:18:18.117
+OK, it's going to first try
+convert it to an integer value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-0
+00:18:19.097 --> 00:18:22.706
+In which case it can't, right?
+So it's not going to be able to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-1
+00:18:22.706 --> 00:18:26.144
+print out your age is whatever
+the age is, right? So when I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-2
+00:18:26.144 --> 00:18:29.639
+step in, when I step over that
+you can see it bounced out of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-3
+00:18:29.639 --> 00:18:32.847
+the method because I'm not
+catching anything inside the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-4
+00:18:32.847 --> 00:18:36.399
+print age method right here. So
+that means that it's going to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-5
+00:18:36.399 --> 00:18:39.951
+bubble up outside of that print
+age method. And fortunately I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-6
+00:18:39.951 --> 00:18:43.274
+have that method call right
+here, line 19 inside of a try
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-7
+00:18:43.274 --> 00:18:46.998
+block, which means now I'm going
+to catch it properly. And which
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2862-8
+00:18:46.998 --> 00:18:48.717
+case, I'm gonna say incorrect.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2880-0
+00:18:48.837 --> 00:18:51.725
+They please try again and then
+directly after that I'm going to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2880-1
+00:18:51.725 --> 00:18:54.567
+say continue and that means it's
+going to start the loop over.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2931-0
+00:18:56.027 --> 00:18:59.689
+So this is where I want to
+handle it, because if I handle
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2931-1
+00:18:59.689 --> 00:19:03.414
+it inside of here, it's not
+gonna return the result like I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2931-2
+00:19:03.414 --> 00:19:07.518
+want like like. I'm sorry what I
+want to do is I want to ask the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2931-3
+00:19:07.518 --> 00:19:11.496
+user to just start over, retype
+it right, but that's not gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2931-4
+00:19:11.496 --> 00:19:15.347
+be something I can easily do
+from inside the method because.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2969-0
+00:19:15.777 --> 00:19:19.337
+Umm my loop is outside of it, so
+the easiest way for me to do
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2969-1
+00:19:19.337 --> 00:19:22.840
+that is to just catch that in my
+loop right here rather than
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2969-2
+00:19:22.840 --> 00:19:26.114
+inside my method. Because
+imagine if I put the try catch
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/2969-3
+00:19:26.114 --> 00:19:29.387
+in here and then I said OK and
+correct value. Try again.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-0
+00:19:30.317 --> 00:19:33.657
+It's not gonna like know that it
+needs to go back to the loop
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-1
+00:19:33.657 --> 00:19:36.620
+again. It's just gonna keep
+continuing and and try and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-2
+00:19:36.620 --> 00:19:39.798
+proceed forward with it. It's
+not gonna have register that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-3
+00:19:39.798 --> 00:19:42.761
+properly. The flow of our
+program isn't being properly
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-4
+00:19:42.761 --> 00:19:46.209
+executed. So that's why I have
+the try catch block here instead
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-5
+00:19:46.209 --> 00:19:49.549
+of inside the part where it's
+actually converting. Excuse me,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-6
+00:19:49.549 --> 00:19:52.835
+it's actually converting it.
+We're normally you think that's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-7
+00:19:52.835 --> 00:19:55.906
+where you put it, right? We
+wanna put code inside of our
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-8
+00:19:55.906 --> 00:19:58.923
+tribe block that we could
+reasonably expect to catch an
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3053-9
+00:19:58.923 --> 00:20:01.347
+exception or to have some type
+of a problem.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3091-0
+00:20:02.057 --> 00:20:05.003
+But in this case I don't want to
+actually catch it in the print
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3091-1
+00:20:05.003 --> 00:20:07.995
+age part. I want it to bubble up
+so that I when I do catch it in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3091-2
+00:20:07.995 --> 00:20:11.033
+the loop, I can very easily just
+say try again and start the loop
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3091-3
+00:20:11.033 --> 00:20:13.427
+over and that's the whole point
+of this right here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3159-0
+00:20:14.267 --> 00:20:17.316
+So in this case I could just go
+through continue. You can see
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3159-1
+00:20:17.316 --> 00:20:20.070
+continue just brings me right
+back to the beginning. It
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3159-2
+00:20:20.070 --> 00:20:23.266
+doesn't even ask for my favorite
+color. It doesn't ask for me to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3159-3
+00:20:23.266 --> 00:20:26.315
+print out the queue character or
+anything like that because I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3159-4
+00:20:26.315 --> 00:20:29.511
+just want you to start over also
+that would be important because
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3159-5
+00:20:29.511 --> 00:20:32.511
+imagine if I wanted to also do
+something with that age value
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3159-6
+00:20:32.511 --> 00:20:35.511
+after I've taken that in. If I
+try to do something with that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3159-7
+00:20:35.511 --> 00:20:38.707
+value outside of this try catch
+block and I didn't say continue.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3194-0
+00:20:39.567 --> 00:20:41.963
+I could have more more
+exceptions that it would happen
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3194-1
+00:20:41.963 --> 00:20:44.839
+because maybe my value wouldn't.
+Well, obviously it wouldn't be a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3194-2
+00:20:44.839 --> 00:20:47.540
+number in this case. It would be
+letters. So if I tried to do
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3194-3
+00:20:47.540 --> 00:20:49.457
+more stuff with it, I'd have
+more problems.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3228-0
+00:20:50.607 --> 00:20:53.887
+So that's another reason why we
+would want to actually handle it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3228-1
+00:20:53.887 --> 00:20:56.763
+properly and just have them
+start over again rather than
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3228-2
+00:20:56.763 --> 00:20:59.891
+continuing along with the code
+to enter their favorite color.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3228-3
+00:20:59.891 --> 00:21:01.657
+So that's what this is doing
+here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3231-0
+00:21:03.777 --> 00:21:04.207
+All right.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3243-0
+00:21:04.867 --> 00:21:09.495
+I'll make sure that that queue
+thing works before I submit
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3243-1
+00:21:09.495 --> 00:21:09.887
+this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3257-0
+00:21:11.247 --> 00:21:16.011
+For you guys to use if you want.
+Alright, wow, wait too much time
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3257-1
+00:21:16.011 --> 00:21:16.877
+on that, OK?
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3269-0
+00:21:18.247 --> 00:21:22.065
+Course Friday to assignment, uh
+module 3, assignment module 4
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3269-1
+00:21:22.065 --> 00:21:23.297
+content. OK alright.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3275-0
+00:21:23.967 --> 00:21:26.467
+Cool. Let's get to that then.
+Let's see.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3315-0
+00:21:29.297 --> 00:21:32.786
+The no. But the lessons we're
+going to do the project 1st
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3315-1
+00:21:32.786 --> 00:21:36.395
+module 3 be my calculator.
+Alright, so this one I think the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3315-2
+00:21:36.395 --> 00:21:39.884
+biggest issues people were
+having are gonna be with where
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3315-3
+00:21:39.884 --> 00:21:41.087
+do I put everything?
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3317-0
+00:21:41.777 --> 00:21:43.197
+And.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3361-0
+00:21:43.927 --> 00:21:47.070
+What do I do with my finally
+block? And there's a couple of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3361-1
+00:21:47.070 --> 00:21:50.266
+issues that can come up with how
+you decide to do it in this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3361-2
+00:21:50.266 --> 00:21:53.671
+solution here and this example I
+put essentially everything that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3361-3
+00:21:53.671 --> 00:21:56.866
+I could in the try block. This
+is really kind of the easiest
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3361-4
+00:21:56.866 --> 00:21:57.547
+way to do it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3375-0
+00:21:58.617 --> 00:22:00.679
+It really doesn't matter if you
+have, you know, the best
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3375-1
+00:22:00.679 --> 00:22:02.307
+practice of where you're putting
+your stuff.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-0
+00:22:03.487 --> 00:22:06.411
+All I really wanna see is that
+you're using it properly. You're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-1
+00:22:06.411 --> 00:22:09.198
+not just throwing in an empty
+try catch block somewhere, but
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-2
+00:22:09.198 --> 00:22:12.213
+you're actually using it O. This
+is what I'm doing. Everything is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-3
+00:22:12.213 --> 00:22:14.955
+inside the try block, so if
+anything were to happen at all,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-4
+00:22:14.955 --> 00:22:17.742
+I would catch that and then it
+would just print out what the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-5
+00:22:17.742 --> 00:22:20.574
+exception is and then and then
+finally block. I'm closing the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-6
+00:22:20.574 --> 00:22:23.407
+scanner. This is what I wanted
+to see something happening and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-7
+00:22:23.407 --> 00:22:26.285
+finally block that makes sense
+and in my case I'm closing this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-8
+00:22:26.285 --> 00:22:28.844
+scanner and then I'm also
+printing out a message saying
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3462-9
+00:22:28.844 --> 00:22:31.037
+yeah, you completed it or know
+it had an error.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3504-0
+00:22:31.987 --> 00:22:35.273
+And they'll be the way it does.
+That is, I have this string
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3504-1
+00:22:35.273 --> 00:22:38.559
+value away at the top here that
+is hardcoded to say program
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3504-2
+00:22:38.559 --> 00:22:41.352
+ended successfully. So by
+default if nothing wrong
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3504-3
+00:22:41.352 --> 00:22:44.584
+happens, it will print that
+message out here at the bottom
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3504-4
+00:22:44.584 --> 00:22:47.925
+that it ended successfully.
+However, if an error happens and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3504-5
+00:22:47.925 --> 00:22:48.527
+I catch it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3546-0
+00:22:49.277 --> 00:22:52.542
+I change that message to now say
+program ended with an error and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3546-1
+00:22:52.542 --> 00:22:55.455
+then it will still go in the
+finally block and print that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3546-2
+00:22:55.455 --> 00:22:58.268
+out. And now what we'll say
+program it in with an error
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3546-3
+00:22:58.268 --> 00:23:00.227
+instead of program ended
+successfully.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3552-0
+00:23:02.067 --> 00:23:05.637
+OK, so I don't really think.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3555-0
+00:23:06.897 --> 00:23:07.647
+Let's see here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3559-0
+00:23:09.337 --> 00:23:10.367
+Yeah, let's.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3646-0
+00:23:17.197 --> 00:23:20.979
+I don't. I honestly think that
+I'm gonna have to really run
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3646-1
+00:23:20.979 --> 00:23:25.012
+through this unless y'all want
+me to. But I just wanted to show
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3646-2
+00:23:25.012 --> 00:23:28.605
+that this is really how you do
+it. The one thing that is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3646-3
+00:23:28.605 --> 00:23:32.324
+causing problems for, I guess,
+really the main problems is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3646-4
+00:23:32.324 --> 00:23:35.916
+really related to scope,
+especially if you wanted to use
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3646-5
+00:23:35.916 --> 00:23:39.698
+block somewhere like calculating
+any values, right? So if I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3646-6
+00:23:39.698 --> 00:23:43.668
+wanted to do it for calculating
+the BMI here, I could throw it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3646-7
+00:23:43.668 --> 00:23:47.387
+in here, right? I could say all
+right, I'm just gonna put.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3688-0
+00:23:47.507 --> 00:23:50.959
+A calculation method or my
+calculation, you know, this is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3688-1
+00:23:50.959 --> 00:23:54.887
+the method called. The method is
+doing the calculation, but let's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3688-2
+00:23:54.887 --> 00:23:58.756
+say I just want to put this in a
+try catch block. You know I can
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3688-3
+00:23:58.756 --> 00:24:02.506
+do that, right? I'll put this
+code inside of here and I'll put
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3688-4
+00:24:02.506 --> 00:24:03.577
+my catch after it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3689-0
+00:24:13.207 --> 00:24:13.627
+OK.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3722-0
+00:24:13.747 --> 00:24:17.674
+Umm. Let's see. Should we be
+using multiple public methods in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3722-1
+00:24:17.674 --> 00:24:21.537
+our code or is this just going
+straight forward? OK Ohh like
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3722-2
+00:24:21.537 --> 00:24:25.274
+creating separate methods
+instead of just having it all in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3722-3
+00:24:25.274 --> 00:24:25.527
+one.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3728-0
+00:24:26.957 --> 00:24:28.117
+Is that what you're referring
+to?
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3783-0
+00:24:30.957 --> 00:24:34.725
+Yes, OK. Going forward. I would,
+I would suggest at this point
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3783-1
+00:24:34.725 --> 00:24:38.432
+you either should have or. I
+would suggest doing it. It's not
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3783-2
+00:24:38.432 --> 00:24:41.961
+required yet, but you will have
+to do it anyways. At least
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3783-3
+00:24:41.961 --> 00:24:45.549
+creating one additional method
+because we're gonna get into
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3783-4
+00:24:45.549 --> 00:24:49.197
+abstraction which requires the
+whole concept of inheritance.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3817-0
+00:24:50.237 --> 00:24:53.272
+And that whole thing child
+parent class, that stuff, which
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3817-1
+00:24:53.272 --> 00:24:56.514
+means that you're gonna need a
+method at some point, right? So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3817-2
+00:24:56.514 --> 00:24:59.498
+it's just easiest if you create
+a method, I would suggest
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3817-3
+00:24:59.498 --> 00:25:01.967
+creating a method that will do
+the calculation.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3827-0
+00:25:02.567 --> 00:25:05.899
+Umm. Or maybe figuring out the
+categories? I mean I have three
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3827-1
+00:25:05.899 --> 00:25:06.957
+different ones here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-0
+00:25:07.627 --> 00:25:10.828
+When to calculate 1 to find the
+category, one to find the other
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-1
+00:25:10.828 --> 00:25:13.529
+category you know I would
+suggest doing the same. You
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-2
+00:25:13.529 --> 00:25:16.230
+don't have to but the
+requirement going forward or at
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-3
+00:25:16.230 --> 00:25:19.431
+least in the future assignments
+are going to be that you have a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-4
+00:25:19.431 --> 00:25:22.482
+method that you have to use
+because you have to implement it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-5
+00:25:22.482 --> 00:25:25.283
+in a certain way. So I would
+suggest doing it. It's not
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-6
+00:25:25.283 --> 00:25:28.284
+required right now. You don't
+have to have multiple ones. I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-7
+00:25:28.284 --> 00:25:31.335
+think they requirement is only
+going to say one. Technically
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-8
+00:25:31.335 --> 00:25:34.486
+the assignment says using your
+previously created method so it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3913-9
+00:25:34.486 --> 00:25:37.237
+kind of assumes that you would
+have already done this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3935-0
+00:25:37.837 --> 00:25:41.503
+I just suggest doing it now so
+it's easier for you, but you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3935-1
+00:25:41.503 --> 00:25:45.353
+don't have to. I just have it in
+here, so maybe you can follow
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3935-2
+00:25:45.353 --> 00:25:46.147
+that example.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3944-0
+00:25:47.227 --> 00:25:49.657
+And see how you you can add
+these methods so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/3950-0
+00:25:50.717 --> 00:25:52.477
+Right. Hopefully that answers
+your question.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-0
+00:25:58.627 --> 00:26:01.939
+OK, let's see. So I added this
+triblock here and I just put
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-1
+00:26:01.939 --> 00:26:05.307
+that that calculation part in
+here, right. But now you see I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-2
+00:26:05.307 --> 00:26:08.564
+have some underlying like
+errors. I have some errors. This
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-3
+00:26:08.564 --> 00:26:11.932
+one you can compile and that's
+because it says here that BMI
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-4
+00:26:11.932 --> 00:26:15.134
+can't be resolved to a variable
+and what that means is it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-5
+00:26:15.134 --> 00:26:18.667
+doesn't know what BMI is. It's
+like hey, I can't find this like
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-6
+00:26:18.667 --> 00:26:22.200
+this variable doesn't exist. But
+then you look at the try block
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-7
+00:26:22.200 --> 00:26:25.457
+and you're like hey, it does
+exist, it's right here, look,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-8
+00:26:25.457 --> 00:26:28.935
+it's a double value. I'm calling
+it BMI and we're then calling
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4026-9
+00:26:28.935 --> 00:26:29.377
+the BMI.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-0
+00:26:29.467 --> 00:26:32.936
+Exactly be my method when I say
+call, what I mean is I'm gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-1
+00:26:32.936 --> 00:26:36.350
+use it. That's what we mean when
+we say call when I call this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-2
+00:26:36.350 --> 00:26:39.764
+method, I'm going to use this
+method here. So that's what I'm
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-3
+00:26:39.764 --> 00:26:43.067
+doing here. So why is it causing
+this problem? Well, that's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-4
+00:26:43.067 --> 00:26:46.536
+because inside this try block,
+all the code that is created in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-5
+00:26:46.536 --> 00:26:50.115
+here like this BMI value, that's
+the scope that it's limited to,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-6
+00:26:50.115 --> 00:26:53.033
+right? So we can't use it
+outside of the tribe block
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-7
+00:26:53.033 --> 00:26:56.502
+because we created it inside of
+it. So it the rest of our code
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-8
+00:26:56.502 --> 00:27:00.136
+has no idea what's inside of it.
+It's kind of hidden. I guess you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4136-9
+00:27:00.136 --> 00:27:00.687
+could say.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4167-0
+00:27:00.907 --> 00:27:04.749
+Essentially, anything within
+those curly braces are gonna be
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4167-1
+00:27:04.749 --> 00:27:08.465
+within their own scope. So in
+order to fix that, I have to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4167-2
+00:27:08.465 --> 00:27:12.495
+actually declare this outside of
+that block. So what I'll do is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4167-3
+00:27:12.495 --> 00:27:14.007
+I'll basically just say.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4188-0
+00:27:15.027 --> 00:27:18.702
+Double BMI equals zero, and then
+how I'll use it is I'm just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4188-1
+00:27:18.702 --> 00:27:22.197
+going to use the variable
+directly inside that try block.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4257-0
+00:27:22.817 --> 00:27:25.868
+That's what I have to do now. So
+now I have everything done
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4257-1
+00:27:25.868 --> 00:27:28.766
+properly. I've created it
+outside the block, which means
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4257-2
+00:27:28.766 --> 00:27:31.868
+that scope is just, you know,
+within the rest of my program.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4257-3
+00:27:31.868 --> 00:27:34.817
+Essentially within the rest of
+this code. So I can use it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4257-4
+00:27:34.817 --> 00:27:37.970
+anywhere I've created outside
+the triblock, which means I can
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4257-5
+00:27:37.970 --> 00:27:41.224
+create it inside or I can use it
+inside the triblock as well as
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4257-6
+00:27:41.224 --> 00:27:43.817
+anywhere else I want to outside
+the try block too.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4317-0
+00:27:44.487 --> 00:27:47.445
+So that's probably the most
+common issue that I see is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4317-1
+00:27:47.445 --> 00:27:50.564
+having trouble with. I want to
+put this inside of my code
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4317-2
+00:27:50.564 --> 00:27:53.844
+somewhere, but I'm having issues
+because of, well, it's it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4317-3
+00:27:53.844 --> 00:27:57.125
+scope really. Your code having
+to do with that. So just make
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4317-4
+00:27:57.125 --> 00:28:00.566
+sure that if you have any code
+or any variables you're creating
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4317-5
+00:28:00.566 --> 00:28:03.847
+and you're try block and you
+wanna use it outside of it, you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4317-6
+00:28:03.847 --> 00:28:06.697
+have to actually create them
+outside your try block.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4319-0
+00:28:07.897 --> 00:28:08.297
+OK.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4364-0
+00:28:09.177 --> 00:28:11.620
+Let me just go ahead and undo
+that, but yeah, that that was
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4364-1
+00:28:11.620 --> 00:28:14.144
+pretty much it as far as the
+concept goes, you could have put
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4364-2
+00:28:14.144 --> 00:28:16.709
+any any code you really wanted
+to install. The Triblock caught
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4364-3
+00:28:16.709 --> 00:28:19.151
+it, do something on the finally
+block that makes sense. And
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4364-4
+00:28:19.151 --> 00:28:20.047
+that's pretty much it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4366-0
+00:28:21.377 --> 00:28:21.767
+OK.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4371-0
+00:28:22.427 --> 00:28:23.907
+Let's move along here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4383-0
+00:28:26.057 --> 00:28:31.227
+Steinmetz Module 3 now OK
+exception handling. So this one.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-0
+00:28:33.127 --> 00:28:35.853
+Again, the hardest part is
+probably understanding
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-1
+00:28:35.853 --> 00:28:38.742
+instructions on the whole
+calculating or finding the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-2
+00:28:38.742 --> 00:28:41.959
+minimum values, whatever. So
+we're just gonna go ahead and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-3
+00:28:41.959 --> 00:28:45.448
+step through it here. I gave you
+the template. I thought it was
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-4
+00:28:45.448 --> 00:28:48.719
+pretty close, so it should have
+helped you guys. What I was
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-5
+00:28:48.719 --> 00:28:51.881
+really looking for was that you
+used the try catch blocks
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-6
+00:28:51.881 --> 00:28:55.207
+properly. So in this case you'll
+also see I have pretty much
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-7
+00:28:55.207 --> 00:28:58.424
+everything inside of the try
+block. Since we're not taking
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-8
+00:28:58.424 --> 00:29:01.531
+any input, I actually don't
+really have to have anything
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4458-9
+00:29:01.531 --> 00:29:04.257
+outside the triblock except in
+my case I want to.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4486-0
+00:29:04.657 --> 00:29:08.133
+A message in the file name block
+and that message depends on
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4486-1
+00:29:08.133 --> 00:29:11.667
+something that happens in the
+catch block, which means that I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4486-2
+00:29:11.667 --> 00:29:14.117
+have to actually declare it
+outside of it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4524-0
+00:29:14.907 --> 00:29:17.210
+Which I've done here. Now if I
+didn't actually have this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4524-1
+00:29:17.210 --> 00:29:19.796
+variable and I was just going to
+like type in a string value in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4524-2
+00:29:19.796 --> 00:29:22.342
+the finally block, that would be
+OK and then I really wouldn't
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4524-3
+00:29:22.342 --> 00:29:23.837
+need anything outside the try
+block.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4563-0
+00:29:25.037 --> 00:29:28.057
+But since we're not taking any
+input, you know using the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4563-1
+00:29:28.057 --> 00:29:31.500
+scanner and all that stuff, you
+don't really have to worry about
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4563-2
+00:29:31.500 --> 00:29:34.626
+that. OK, so you had to create
+an array that had a size of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4563-3
+00:29:34.626 --> 00:29:37.804
+1000, which means you had a
+collection of values collection
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4563-4
+00:29:37.804 --> 00:29:38.387
+of numbers.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4635-0
+00:29:39.487 --> 00:29:43.487
+1000 of them the lowest possible
+value had to be or the lowest
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4635-1
+00:29:43.487 --> 00:29:47.614
+possible value you could choose
+randomly was one and the highest
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4635-2
+00:29:47.614 --> 00:29:51.106
+possible value. You could
+choose. Rounding was 10,000.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4635-3
+00:29:51.106 --> 00:29:54.915
+Then you had to populate that
+array with random values that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4635-4
+00:29:54.915 --> 00:29:58.788
+fall within that range one to
+10,000. So you need a thousand
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4635-5
+00:29:58.788 --> 00:30:02.597
+of those. So the easiest way to
+do it is going to be what I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4635-6
+00:30:02.597 --> 00:30:06.597
+provided for you before using
+this random class here, creating
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4635-7
+00:30:06.597 --> 00:30:09.327
+a random object and then calling
+the ints.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4676-0
+00:30:09.877 --> 00:30:14.258
+Method filling it with what size
+we want the array to be the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4676-1
+00:30:14.258 --> 00:30:18.711
+lowest value and the highest
+value plus one. I explained this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4676-2
+00:30:18.711 --> 00:30:23.380
+last time, but it's an. It's an
+exclusive value for some reason,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4676-3
+00:30:23.380 --> 00:30:26.827
+so we have to say plus one,
+meaning we want to.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4684-0
+00:30:27.637 --> 00:30:30.167
+Specify the outer bounds to be
+10,000 and one.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4694-0
+00:30:30.847 --> 00:30:33.467
+That way it'll include the
+actual 10,000 value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4711-0
+00:30:34.387 --> 00:30:37.075
+Otherwise, you'll never actually
+hit it, and then we just do 2
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4711-1
+00:30:37.075 --> 00:30:39.636
+array and it actually builds it
+and returns it for us. It's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4711-2
+00:30:39.636 --> 00:30:39.977
+perfect.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4771-0
+00:30:41.067 --> 00:30:44.604
+It's super easy but easy. I
+mean, it's one line of code and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4771-1
+00:30:44.604 --> 00:30:48.199
+then we need to sort the array.
+Now this is important in the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4771-2
+00:30:48.199 --> 00:30:51.324
+order that you do it in. If
+you're gonna follow this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4771-3
+00:30:51.324 --> 00:30:54.801
+template for how to sort and
+find your minimum and maximum
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4771-4
+00:30:54.801 --> 00:30:58.397
+elements. If we didn't sort
+first, all our values are out of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4771-5
+00:30:58.397 --> 00:31:01.993
+order. So the way I'm finding
+the minimum element is getting
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4771-6
+00:31:01.993 --> 00:31:03.997
+the first index, the first
+value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-0
+00:31:04.617 --> 00:31:07.359
+Because I'm assuming it's
+sorted, so if it's sorted, the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-1
+00:31:07.359 --> 00:31:10.341
+lowest number would be the first
+one, and that means also the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-2
+00:31:10.341 --> 00:31:13.371
+highest number would be the last
+one. So all I have to find is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-3
+00:31:13.371 --> 00:31:16.305
+the very first value in the
+array and the very last one. And
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-4
+00:31:16.305 --> 00:31:19.383
+I've already got my min and Max
+that'd be the easiest way to do
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-5
+00:31:19.383 --> 00:31:22.221
+it, which is why you need to
+sort it first, otherwise your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-6
+00:31:22.221 --> 00:31:25.299
+min value that you try to find
+is just going to be whatever the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-7
+00:31:25.299 --> 00:31:28.233
+random value was for the first
+element and then whatever the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-8
+00:31:28.233 --> 00:31:31.071
+random value was for the last
+one. And there's no limit to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-9
+00:31:31.071 --> 00:31:33.860
+like what that could be. It
+could be anything from one to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4865-10
+00:31:33.860 --> 00:31:34.197
+10,000.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4924-0
+00:31:35.387 --> 00:31:38.927
+So then after you do that, you
+just need to find the average
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4924-1
+00:31:38.927 --> 00:31:42.236
+again. You can just do the
+arrays dot stream dot average
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4924-2
+00:31:42.236 --> 00:31:45.892
+and it will do it for you. No
+need to do the math on your own.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4924-3
+00:31:45.892 --> 00:31:49.490
+I'm not gonna require that and
+then you just got to print out
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4924-4
+00:31:49.490 --> 00:31:53.089
+those values so you can see the
+minimum was four Max was 9981
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4924-5
+00:31:53.089 --> 00:31:56.397
+and then it prints out the
+average and we're good to go.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4941-0
+00:31:57.107 --> 00:32:01.697
+So testing whether this worked
+or not, you can easily just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4941-1
+00:32:01.697 --> 00:32:03.797
+remove the -, 1 right here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4962-0
+00:32:04.537 --> 00:32:10.818
+And now it's going to try and
+get the 10th. Let's see. It's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/4962-1
+00:32:10.818 --> 00:32:12.807
+gonna get the 1001.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5018-0
+00:32:13.957 --> 00:32:17.540
+1001 element or index and that
+doesn't exist, which is why we
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5018-1
+00:32:17.540 --> 00:32:21.007
+always got to -. 1 cause the
+zero based index. So if I were
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5018-2
+00:32:21.007 --> 00:32:24.186
+to go through it again here,
+that won't work. It's not
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5018-3
+00:32:24.186 --> 00:32:27.769
+possible because look, we have
+an exception and it says index
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5018-4
+00:32:27.769 --> 00:32:30.427
+1000 is out of bounds for the
+length of 1000.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5031-0
+00:32:31.417 --> 00:32:34.975
+Umm, so the the last index we
+could possibly have would
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5031-1
+00:32:34.975 --> 00:32:35.737
+actually be.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5035-0
+00:32:38.577 --> 00:32:39.297
+999.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5037-0
+00:32:39.977 --> 00:32:41.197
+Instead so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5046-0
+00:32:42.717 --> 00:32:45.378
+OK. So that's how that works.
+Uh, there's any questions, let
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5046-1
+00:32:45.378 --> 00:32:45.727
+me know.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5056-0
+00:32:46.377 --> 00:32:48.944
+Umm, I mean, that's a
+straightforward as I can make it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5056-1
+00:32:48.944 --> 00:32:50.017
+for you though I think.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5082-0
+00:32:51.977 --> 00:32:54.776
+You could have left in your
+program the like this error if
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5082-1
+00:32:54.776 --> 00:32:57.860
+you did something like that and
+you left it in there and I could
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5082-2
+00:32:57.860 --> 00:33:00.564
+see that you intentionally did
+that. That would be OK. I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5082-3
+00:33:00.564 --> 00:33:02.557
+wouldn't really take points off
+for that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5124-0
+00:33:03.277 --> 00:33:06.587
+Ohm if you left it in just so
+you're like forcing it to happen
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5124-1
+00:33:06.587 --> 00:33:09.686
+to say, hey, look it. I'm
+actually catching it. That's OK.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5124-2
+00:33:09.686 --> 00:33:12.995
+I I run through everyone's call.
+This is why it's important to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5124-3
+00:33:12.995 --> 00:33:16.042
+submit like the Java file
+because I read through the code
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5124-4
+00:33:16.042 --> 00:33:19.404
+and I run it all. So I'll see if
+you put in like an intentional
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5124-5
+00:33:19.404 --> 00:33:19.877
+you know.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5134-0
+00:33:20.597 --> 00:33:23.745
+Exception in your tribe log, so
+you shouldn't get points off for
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5134-1
+00:33:23.745 --> 00:33:23.987
+that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5151-0
+00:33:27.037 --> 00:33:31.842
+OK, alright, let's see. So first
+before I get to the module 4
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5151-1
+00:33:31.842 --> 00:33:34.787
+stuff, because it requires that
+this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5164-0
+00:33:35.167 --> 00:33:40.536
+Umm, where is it? Here we go. Uh
+file based operations. You need
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5164-1
+00:33:40.536 --> 00:33:41.197
+to know.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5178-0
+00:33:42.197 --> 00:33:46.194
+Where to get the content for the
+assignments for file based
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5178-1
+00:33:46.194 --> 00:33:47.127
+operations so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5193-0
+00:33:48.347 --> 00:33:51.196
+Let me show you where that looks
+like here and now you can't see
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5193-1
+00:33:51.196 --> 00:33:51.327
+it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5197-0
+00:33:53.517 --> 00:33:54.907
+Let me see.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5210-0
+00:34:04.437 --> 00:34:07.378
+It's actually just the one
+assignment. It's going to your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5210-1
+00:34:07.378 --> 00:34:08.747
+actual module 4 assignment.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5216-0
+00:34:10.027 --> 00:34:12.297
+If you see here UM.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5223-0
+00:34:13.247 --> 00:34:15.787
+You'll have to go into the like
+content.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5231-0
+00:34:16.727 --> 00:34:19.547
+Ohh you may not be able to see
+this view, but if.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5242-0
+00:34:20.817 --> 00:34:23.947
+If you click on it, let me see
+if I can change it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5267-0
+00:34:34.057 --> 00:34:37.543
+Right. If you go into it file
+based operations and you click
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5267-1
+00:34:37.543 --> 00:34:40.857
+on the actual assignment here,
+you'll see there's a file.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-0
+00:34:41.737 --> 00:34:44.503
+Uh, maybe not. Maybe it's not
+listed there. There you go.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-1
+00:34:44.503 --> 00:34:47.508
+Alright. So you'll see this file
+here. You'll actually have to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-2
+00:34:47.508 --> 00:34:50.512
+download this. It's required for
+your assignment, so make sure
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-3
+00:34:50.512 --> 00:34:53.612
+you have this case. I'm going to
+refer to it. I've probably also
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-4
+00:34:53.612 --> 00:34:56.665
+give this to you in the follow
+up announcement as well. Just so
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-5
+00:34:56.665 --> 00:34:59.574
+you have it, but it's really
+important that you actually use
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-6
+00:34:59.574 --> 00:35:02.340
+this because it's required.
+Ignore the fact that step one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-7
+00:35:02.340 --> 00:35:05.154
+says read the data from this
+Seattle whatever whatever dot
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-8
+00:35:05.154 --> 00:35:08.159
+CSV. You know that's a course
+error that they're gonna have to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-9
+00:35:08.159 --> 00:35:10.829
+fix. But file based or file
+operations data set is what
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5388-10
+00:35:10.829 --> 00:35:13.357
+you'll need to have. So make
+sure you download that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5395-0
+00:35:15.347 --> 00:35:17.607
+Alright, OK, so file based
+operations.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5417-0
+00:35:18.487 --> 00:35:21.883
+Probably it's operations are. I
+mean the really important and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5417-1
+00:35:21.883 --> 00:35:25.059
+that's how you read and write 2
+files from inside of your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5417-2
+00:35:25.059 --> 00:35:25.497
+program.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5481-0
+00:35:26.807 --> 00:35:30.946
+In Java, we primarily use two
+ways to read write to files when
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5481-1
+00:35:30.946 --> 00:35:34.691
+we can use the files class or
+input output streams. Now,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5481-2
+00:35:34.691 --> 00:35:38.633
+typically speaking, the files
+class is really only good for
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5481-3
+00:35:38.633 --> 00:35:42.444
+small files. It's not really
+efficient or as efficient as
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5481-4
+00:35:42.444 --> 00:35:46.517
+using for streams, which means
+that streams are preferred for
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5481-5
+00:35:46.517 --> 00:35:48.817
+essentially all of the file
+sizes.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5491-0
+00:35:49.737 --> 00:35:53.467
+We will stick with using those
+in our.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5514-0
+00:35:54.327 --> 00:35:57.639
+I guess examples here going
+forward, but just know that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5514-1
+00:35:57.639 --> 00:36:01.187
+that's kind of a difference
+between the two. You'll see why
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5514-2
+00:36:01.187 --> 00:36:03.967
+streams are actually pretty
+beneficial here O.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5541-0
+00:36:04.767 --> 00:36:08.194
+Streams input output streams
+are. Think of them like water
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5541-1
+00:36:08.194 --> 00:36:11.910
+pipes, right? It's essentially
+what connects the water from the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5541-2
+00:36:11.910 --> 00:36:15.337
+city water or the well, if you
+have one to your household.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5558-0
+00:36:16.577 --> 00:36:19.734
+It's it's what connects it. All
+right? It's the. I don't know
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5558-1
+00:36:19.734 --> 00:36:21.007
+the the method of travel.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5604-0
+00:36:22.167 --> 00:36:26.040
+Uh, so that's kind of what they
+are for your data. It connects
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5604-1
+00:36:26.040 --> 00:36:29.666
+your data to your program to
+your code, so then we can use
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5604-2
+00:36:29.666 --> 00:36:33.416
+it. That's what a stream is. So
+there's two primary types of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5604-3
+00:36:33.416 --> 00:36:37.350
+streams that are streams that's
+gonna be input and output makes
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5604-4
+00:36:37.350 --> 00:36:40.977
+sense. One stream for taking in
+values and one stream for.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5608-0
+00:36:41.697 --> 00:36:42.497
+Outputting values.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5657-0
+00:36:43.507 --> 00:36:47.708
+So each of these types has two
+classes. You have a reader and a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5657-1
+00:36:47.708 --> 00:36:51.385
+writer, so a reader is for
+reading characters like text
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5657-2
+00:36:51.385 --> 00:36:55.258
+values, string values, right
+characters, or a writer. Same
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5657-3
+00:36:55.258 --> 00:36:59.196
+thing. But for writing text
+value, string characters, stuff
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5657-4
+00:36:59.196 --> 00:37:02.807
+like that. However, an input
+stream and output stream.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5725-0
+00:37:04.037 --> 00:37:08.661
+Umm are much more robust because
+they can read binary data, which
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5725-1
+00:37:08.661 --> 00:37:13.284
+means that you can actually read
+essentially any type of file. Is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5725-2
+00:37:13.284 --> 00:37:17.697
+not an image of video, audio,
+you name it. It can be all sorts
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5725-3
+00:37:17.697 --> 00:37:21.831
+of stuff, so you're not just
+limited to reading plain text
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5725-4
+00:37:21.831 --> 00:37:26.104
+files or any just text value,
+log files, stuff like that. So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5725-5
+00:37:26.104 --> 00:37:30.307
+what you can do is much more
+with input and output streams.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-0
+00:37:33.167 --> 00:37:36.801
+So something neat here is that
+streams will implement the auto
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-1
+00:37:36.801 --> 00:37:40.492
+closeable interface. Now I don't
+know if you or remember, but I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-2
+00:37:40.492 --> 00:37:44.183
+use this terminology previously
+auto closable when dealing with
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-3
+00:37:44.183 --> 00:37:47.759
+the try catch blocks and that's
+because we have the try block
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-4
+00:37:47.759 --> 00:37:51.508
+that we can use by itself called
+the try with resources which is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-5
+00:37:51.508 --> 00:37:54.680
+the try block with the
+parentheses right after it. And
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-6
+00:37:54.680 --> 00:37:58.083
+you don't have a catcher finally
+block but you have to use
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-7
+00:37:58.083 --> 00:38:01.544
+something that implements the
+auto closeable and that would
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5801-8
+00:38:01.544 --> 00:38:01.717
+be.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-0
+00:38:02.127 --> 00:38:05.773
+Like a scanner or a a stream,
+which is what we will be using
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-1
+00:38:05.773 --> 00:38:09.478
+here. O it's best to always use
+the buffer version and you'll
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-2
+00:38:09.478 --> 00:38:13.064
+see us go through that here.
+Buffering reads blocks of data
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-3
+00:38:13.064 --> 00:38:16.650
+at a time rather than single
+characters bytes. It just more
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-4
+00:38:16.650 --> 00:38:20.534
+efficient. So what we want to do
+is we want to make sure that we
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-5
+00:38:20.534 --> 00:38:24.180
+use the buffered version. It's
+not really going to have that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-6
+00:38:24.180 --> 00:38:28.065
+much of an impact for us because
+we're just reading pretty basic
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-7
+00:38:28.065 --> 00:38:31.830
+text data in our programs here
+that we're going to use for our
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5875-8
+00:38:31.830 --> 00:38:32.547
+assignments.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5923-0
+00:38:33.097 --> 00:38:36.459
+But let's say you had a much
+more massive program and you're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5923-1
+00:38:36.459 --> 00:38:39.655
+reading all sorts of stuff.
+Maybe it was, or maybe you're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5923-2
+00:38:39.655 --> 00:38:43.016
+doing, you know, video files or
+what have you. It's gonna be
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5923-3
+00:38:43.016 --> 00:38:46.267
+much better to use buffered
+input or output stream than it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5923-4
+00:38:46.267 --> 00:38:49.684
+would be to use the non buffered
+version. Because of that, so
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5923-5
+00:38:49.684 --> 00:38:51.227
+it'll read blocks at a time.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5934-0
+00:38:52.737 --> 00:38:55.247
+Alright, so now we can go
+through and demo it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5943-0
+00:38:58.867 --> 00:39:02.017
+All right, I know it's the most
+exciting part, alright.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5970-0
+00:39:03.297 --> 00:39:07.907
+Let's see. Usual 4. Alright, so
+I really only have two here and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5970-1
+00:39:07.907 --> 00:39:12.373
+these two are going to be what
+hopefully you can use for your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/5970-2
+00:39:12.373 --> 00:39:13.237
+assignments.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6028-0
+00:39:13.937 --> 00:39:16.654
+And you'll have to use a
+combination of the two for one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6028-1
+00:39:16.654 --> 00:39:19.564
+assignment, and pretty much just
+one of them. For the other
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6028-2
+00:39:19.564 --> 00:39:22.523
+assignment. So we'll go through
+these together now. I highly
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6028-3
+00:39:22.523 --> 00:39:25.434
+suggest that you go through
+these again. I will post these.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6028-4
+00:39:25.434 --> 00:39:28.442
+I highly suggest you go through
+these and your end so you can
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6028-5
+00:39:28.442 --> 00:39:30.867
+step through them and see
+exactly how these work.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6030-0
+00:39:31.737 --> 00:39:32.887
+And.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-0
+00:39:34.577 --> 00:39:38.296
+Run these on your end so the way
+that I had these set up is that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-1
+00:39:38.296 --> 00:39:41.957
+we have essentially one that is
+going to take input from a user
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-2
+00:39:41.957 --> 00:39:45.562
+and it's going to, I'm sorry,
+actually right here, this one is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-3
+00:39:45.562 --> 00:39:48.937
+gonna take input from a user.
+You can see I have this wire
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-4
+00:39:48.937 --> 00:39:52.427
+loop here and I'm asking hey,
+enter your name, your favorite
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-5
+00:39:52.427 --> 00:39:56.031
+color, number of pets, and then
+I'm going to take that and I'm
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-6
+00:39:56.031 --> 00:39:59.521
+going to write that to a file,
+and it's going to be in a CSV
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-7
+00:39:59.521 --> 00:40:02.954
+format, which if you're not
+familiar with what a CSV format
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6114-8
+00:40:02.954 --> 00:40:04.327
+is, it means it's comma.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6123-0
+00:40:04.547 --> 00:40:08.377
+Separated values, So what?
+That's gonna look like is.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6128-0
+00:40:09.497 --> 00:40:10.347
+Let's see here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6137-0
+00:40:11.017 --> 00:40:13.187
+That I just exit out of this.
+That's really weird.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6148-0
+00:40:17.087 --> 00:40:20.787
+There we go. Java funnels. Let's
+see colors and pets.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6151-0
+00:40:22.127 --> 00:40:22.847
+Alright.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6159-0
+00:40:38.087 --> 00:40:39.797
+Sorry, I gotta open the file
+quick.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6220-0
+00:40:41.467 --> 00:40:44.716
+All right. So if you were to
+open, uh, CSV file like in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6220-1
+00:40:44.716 --> 00:40:48.371
+notepad, this is what it would
+look like right here. Here's an
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6220-2
+00:40:48.371 --> 00:40:51.968
+example of the output that I
+created from this and you'll see
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6220-3
+00:40:51.968 --> 00:40:55.391
+that in a little bit here, but
+it's all value separated by
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6220-4
+00:40:55.391 --> 00:40:58.872
+commas, name, comma, favorite
+color, comma, number of pets,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6220-5
+00:40:58.872 --> 00:41:02.411
+and then I have Daniel comma,
+blue comma four and John White
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6220-6
+00:41:02.411 --> 00:41:02.817
+one so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6289-0
+00:41:03.887 --> 00:41:07.089
+That's CSV failure. All the
+values will be separated by
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6289-1
+00:41:07.089 --> 00:41:10.576
+commas on their own separate
+lines. Think of it as like rows
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6289-2
+00:41:10.576 --> 00:41:13.949
+and columns where the columns
+are split by commas and each
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6289-3
+00:41:13.949 --> 00:41:17.551
+line is a row. So what you can
+do actually Excel handles these
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6289-4
+00:41:17.551 --> 00:41:20.924
+really great and this is what
+you can use to verify things
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6289-5
+00:41:20.924 --> 00:41:24.525
+with. But if you open it up, by
+default Excel wants to open up
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6289-6
+00:41:24.525 --> 00:41:27.727
+my CSV files. So when I do that,
+it's going to open it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6328-0
+00:41:28.447 --> 00:41:31.376
+In a spreadsheet, because Excel
+knows exactly how to handle
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6328-1
+00:41:31.376 --> 00:41:34.305
+these files, it's going to
+display it properly. So I have a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6328-2
+00:41:34.305 --> 00:41:37.332
+header row name, favorite color
+number, Reds, and then I have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6328-3
+00:41:37.332 --> 00:41:40.114
+the actual rows of values
+beneath them, and this is what
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6328-4
+00:41:40.114 --> 00:41:41.237
+we're looking for here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6340-0
+00:41:42.447 --> 00:41:47.422
+So if you were to open up this
+crime data stuff for your actual
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6340-1
+00:41:47.422 --> 00:41:48.277
+assignment.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6348-0
+00:41:50.357 --> 00:41:52.487
+It will look like this in a
+spreadsheet.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6417-0
+00:41:53.167 --> 00:41:56.468
+Where you have all these values,
+it's a ton of them. I'm not
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6417-1
+00:41:56.468 --> 00:41:59.714
+really sure what it's like 50.
+Well, 14,000 rows. So it's a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6417-2
+00:41:59.714 --> 00:42:03.069
+lot. It's a lot of data. And
+you're gonna sit through it all,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6417-3
+00:42:03.069 --> 00:42:06.261
+but it'll be pretty easy once
+you get the operations going
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6417-4
+00:42:06.261 --> 00:42:09.562
+here. So that's what it looks
+like in Excel. But if you were
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6417-5
+00:42:09.562 --> 00:42:12.970
+to actually edit this CSV file,
+say in Notepad, right click it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6417-6
+00:42:12.970 --> 00:42:15.297
+and go to edit, it's gonna look
+like this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6439-0
+00:42:16.137 --> 00:42:19.161
+It's just not as easy to read,
+but you can see all of them are
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6439-1
+00:42:19.161 --> 00:42:21.849
+separated by commas. They
+appropriate values aren't, so
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6439-2
+00:42:21.849 --> 00:42:23.097
+that's what a CSV file is.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6472-0
+00:42:24.607 --> 00:42:27.834
+OK, so this this program here is
+gonna do. It's gonna basically
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6472-1
+00:42:27.834 --> 00:42:30.909
+take in the values that I want.
+I'm gonna ask. I'm gonna ask
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6472-2
+00:42:30.909 --> 00:42:34.136
+your name, favorite color pets,
+and then it's gonna output that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6472-3
+00:42:34.136 --> 00:42:36.657
+into that file in that format
+that I just showed.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6476-0
+00:42:41.857 --> 00:42:42.747
+OK so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6545-0
+00:42:43.677 --> 00:42:47.234
+If you're going to use my demos
+here, I suggest doing the output
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6545-1
+00:42:47.234 --> 00:42:50.408
+demo first, because it's going
+to create the file that is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6545-2
+00:42:50.408 --> 00:42:53.528
+required for the input demo,
+because if you see here the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6545-3
+00:42:53.528 --> 00:42:56.975
+input demo is just reading the
+input, which means that assumes
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6545-4
+00:42:56.975 --> 00:43:00.423
+that you already have this file
+created. So if you don't, it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6545-5
+00:43:00.423 --> 00:43:03.488
+going to be like. Where's this
+file at? I can't find it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6545-6
+00:43:03.488 --> 00:43:07.045
+exception and it's not going to
+like it, so we're gonna go ahead
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6545-7
+00:43:07.045 --> 00:43:08.577
+and do the output one first.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6551-0
+00:43:09.627 --> 00:43:10.977
+Now if you see here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6600-0
+00:43:12.907 --> 00:43:16.874
+There's this try with resources
+block. I have a try block right
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6600-1
+00:43:16.874 --> 00:43:20.779
+here that takes in this. Well
+this parameters here and in that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6600-2
+00:43:20.779 --> 00:43:23.941
+we're actually going to
+instantiate and create our
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6600-3
+00:43:23.941 --> 00:43:27.846
+buffered writer. We just do it
+inside of there, just like that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6600-4
+00:43:27.846 --> 00:43:31.317
+one demo I showed previously of
+the try with resources.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6625-0
+00:43:32.097 --> 00:43:34.862
+In this case, I'm actually using
+a catch block also and finally a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6625-1
+00:43:34.862 --> 00:43:37.542
+block. Again, I'm putting all my
+code in this to keep it simple
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6625-2
+00:43:37.542 --> 00:43:38.087
+for everyone.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6649-0
+00:43:38.887 --> 00:43:41.730
+You don't have to worry about,
+you know, doing some special
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6649-1
+00:43:41.730 --> 00:43:44.620
+cases here. You can put it on
+the one try catch block if you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6649-2
+00:43:44.620 --> 00:43:44.857
+want.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6707-0
+00:43:46.577 --> 00:43:49.565
+OK, so this is what I've done
+for here. Let me run and debug
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6707-1
+00:43:49.565 --> 00:43:52.455
+it so you can all see it.
+Alright, so we're stopped first.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6707-2
+00:43:52.455 --> 00:43:55.394
+Actually, first it created the
+scanner because we're taking
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6707-3
+00:43:55.394 --> 00:43:58.577
+input and then next we're going
+through the try block. The first
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6707-4
+00:43:58.577 --> 00:44:01.761
+part though, like I said, we're
+gonna actually create this here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6707-5
+00:44:01.761 --> 00:44:04.896
+This is the syntax you're going
+to want to use. This is how you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6707-6
+00:44:04.896 --> 00:44:07.737
+type it. This first part right
+here should look familiar.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-0
+00:44:09.477 --> 00:44:12.834
+Sorry there, I'll make it a
+little bit bigger. Hopefully
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-1
+00:44:12.834 --> 00:44:16.074
+this first partial look
+familiar. Specifying the type,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-2
+00:44:16.074 --> 00:44:19.726
+giving it a name. I'm calling it
+B writer equals new buffered
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-3
+00:44:19.726 --> 00:44:23.083
+writer. Now inside of that it
+takes in a parameter value
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-4
+00:44:23.083 --> 00:44:26.440
+first. So you actually have to
+pass in a new file writer
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-5
+00:44:26.440 --> 00:44:30.210
+object, so it might be a little
+confusing to kind of understand
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-6
+00:44:30.210 --> 00:44:33.685
+what that's all doing here.
+Essentially what it's doing is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-7
+00:44:33.685 --> 00:44:37.455
+it's just creating this file and
+it's opening it up saying hey,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6781-8
+00:44:37.455 --> 00:44:38.927
+I'm ready to write to it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-0
+00:44:39.427 --> 00:44:42.925
+Well, it's doing so instead of
+having to understand everything,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-1
+00:44:42.925 --> 00:44:46.313
+specifically the details of how
+it's doing this, you can just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-2
+00:44:46.313 --> 00:44:49.756
+kind of copy what this is doing
+here like this line and put it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-3
+00:44:49.756 --> 00:44:52.980
+in your own. You can put your
+own file paths in here. It's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-4
+00:44:52.980 --> 00:44:56.314
+easiest if you create it simple
+and don't just put like your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-5
+00:44:56.314 --> 00:44:59.702
+entire user file path with your
+whole workspace blah blah all
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-6
+00:44:59.702 --> 00:45:03.200
+that stuff. I just put it in a
+folder that's in my root C drive
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-7
+00:45:03.200 --> 00:45:06.479
+here folder called Java files
+and I put it in there. If you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-8
+00:45:06.479 --> 00:45:09.758
+keep that I mean great, it will
+make it easier, but you can
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6861-9
+00:45:09.758 --> 00:45:11.507
+really put it wherever you want.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6866-0
+00:45:11.817 --> 00:45:13.027
+The lines you remember where
+it's going.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6875-0
+00:45:13.957 --> 00:45:15.887
+So that's what this is doing.
+It's just creating that file.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6958-0
+00:45:17.057 --> 00:45:20.477
+The next thing I'm doing, I'm
+creating so this is we'll have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6958-1
+00:45:20.477 --> 00:45:24.065
+to kind of keep up with it here
+with the concepts. I'm creating
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6958-2
+00:45:24.065 --> 00:45:27.541
+a list of lists now. A list is
+kind of like an array and this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6958-3
+00:45:27.541 --> 00:45:30.849
+case is an array list, but a
+list is like an array. It's a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6958-4
+00:45:30.849 --> 00:45:34.325
+collection of values. But the
+nice thing about a list is that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6958-5
+00:45:34.325 --> 00:45:37.800
+I'm not limited to a specific
+length, I don't have to specify
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6958-6
+00:45:37.800 --> 00:45:41.332
+its an array of size 10, right?
+It can be whatever size I want
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/6958-7
+00:45:41.332 --> 00:45:41.837
+it to be.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-0
+00:45:43.047 --> 00:45:45.876
+I can add things to it. I can
+remove things from it. It
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-1
+00:45:45.876 --> 00:45:49.059
+doesn't matter. I can do all of
+that and it's really flexible.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-2
+00:45:49.059 --> 00:45:52.292
+So that's what we're going to do
+here because we don't know how
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-3
+00:45:52.292 --> 00:45:55.273
+much input we're going to take
+in. I may ask for input 100
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-4
+00:45:55.273 --> 00:45:58.506
+times. I may ask for it once we
+don't know, so I'm gonna use an
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-5
+00:45:58.506 --> 00:46:01.436
+array list here. This is what I
+suggest doing, especially
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-6
+00:46:01.436 --> 00:46:03.962
+because you'll help
+understanding another concept
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-7
+00:46:03.962 --> 00:46:06.841
+going forward that this is a
+data structure. It's just a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7059-8
+00:46:06.841 --> 00:46:07.397
+collection.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7108-0
+00:46:08.667 --> 00:46:12.744
+All right, so I'm creating a
+list of lists, which means I'm
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7108-1
+00:46:12.744 --> 00:46:17.228
+creating a single list, right? A
+single collection of values, but
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7108-2
+00:46:17.228 --> 00:46:21.373
+each one of those values is
+another list, right? So think of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7108-3
+00:46:21.373 --> 00:46:25.789
+it as A2 dimensional array where
+I have rows and columns, right?
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7108-4
+00:46:25.789 --> 00:46:28.507
+So my first list is gonna be
+basically.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7138-0
+00:46:28.817 --> 00:46:32.208
+Umm all of my columns, but then
+my second one is gonna be all
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7138-1
+00:46:32.208 --> 00:46:35.708
+the rows defining in it or all
+the rows specified in it. So the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7138-2
+00:46:35.708 --> 00:46:39.264
+overall list is just holding my
+rows. So this inner list you see
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7138-3
+00:46:39.264 --> 00:46:39.537
+here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7148-0
+00:46:40.827 --> 00:46:43.677
+Think of those as like as just
+each row that I will have.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-0
+00:46:44.777 --> 00:46:47.875
+And I'm storing them in the
+outer list O to make it a little
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-1
+00:46:47.875 --> 00:46:50.618
+easier, I just have everything
+kind of named a little
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-2
+00:46:50.618 --> 00:46:53.869
+differently. Here I have I have
+I have my variable name instead
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-3
+00:46:53.869 --> 00:46:57.068
+of calling it list something or
+whatever I'm calling it output
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-4
+00:46:57.068 --> 00:46:59.963
+table. So I think there's a
+table if you work with Excel
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-5
+00:46:59.963 --> 00:47:03.113
+spreadsheets or databases or
+whatnot, it's just the table. We
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-6
+00:47:03.113 --> 00:47:05.957
+basically that you can use. You
+can put tables and word
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-7
+00:47:05.957 --> 00:47:09.055
+documents, so hopefully you're
+kind of familiar with that. A
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-8
+00:47:09.055 --> 00:47:12.356
+table just consists of rows and
+columns spreadsheet, right? Just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-9
+00:47:12.356 --> 00:47:15.353
+like an Excel spreadsheet. So
+I'm creating an output table
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7224-10
+00:47:15.353 --> 00:47:15.607
+here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-0
+00:47:16.737 --> 00:47:19.760
+Once I've declared that because
+I need to create an outside the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-1
+00:47:19.760 --> 00:47:22.737
+loop because I want to use it
+afterwards. That's why I have to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-2
+00:47:22.737 --> 00:47:25.618
+worry about that scope issue,
+right? I want to use it inside
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-3
+00:47:25.618 --> 00:47:28.547
+the while loop, but I also want
+to use it outside of it. So I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-4
+00:47:28.547 --> 00:47:31.618
+mean I have to create it outside
+the while loop, so I've created
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-5
+00:47:31.618 --> 00:47:34.500
+it. I'm going in my wild loop.
+I'm saying hey, just continue
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-6
+00:47:34.500 --> 00:47:37.429
+looping until I press the Q key
+to quit right here and that's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-7
+00:47:37.429 --> 00:47:40.027
+just gonna happen. So I'm
+creating the first thing I'm
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7290-8
+00:47:40.027 --> 00:47:41.397
+doing inside this while loop.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-0
+00:47:42.387 --> 00:47:45.432
+I'm creating that that inner
+list I'm I'm creating the row
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-1
+00:47:45.432 --> 00:47:48.735
+every time I loop through this
+and I take input I'm taking that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-2
+00:47:48.735 --> 00:47:51.987
+value and which is essentially
+just one row of data. The name,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-3
+00:47:51.987 --> 00:47:55.393
+color, pet it's just one row. So
+every time I go through the loop
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-4
+00:47:55.393 --> 00:47:58.593
+I need to create a new row. So
+that's what it's doing here at
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-5
+00:47:58.593 --> 00:48:01.844
+the beginning of every time it
+goes through here, it creates a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-6
+00:48:01.844 --> 00:48:04.735
+new row and this case.
+Technically speaking it's a list
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-7
+00:48:04.735 --> 00:48:07.935
+of strings, right? So it's a
+collection of string values. The
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7376-8
+00:48:07.935 --> 00:48:10.257
+string being the name, the color
+of the pet.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7394-0
+00:48:11.667 --> 00:48:14.954
+So then I'm going to take those
+inputs and I'm going to just add
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7394-1
+00:48:14.954 --> 00:48:15.207
+them.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7418-0
+00:48:16.677 --> 00:48:19.641
+To that row, I'm going to say
+output row dot add scanner next
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7418-1
+00:48:19.641 --> 00:48:22.127
+line and it's gonna wait for me
+to type in my name.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7436-0
+00:48:23.347 --> 00:48:25.712
+I type my name in and then it's
+gonna go the next one. What's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7436-1
+00:48:25.712 --> 00:48:28.077
+your favorite color? And I'm
+going to type that one in there.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7447-0
+00:48:29.027 --> 00:48:32.549
+Then it's going to the next one
+number of pets. I have two
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7447-1
+00:48:32.549 --> 00:48:33.027
+Westies.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7465-0
+00:48:35.437 --> 00:48:38.271
+And then that's it. That's
+that's all I want for that. Now
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7465-1
+00:48:38.271 --> 00:48:41.057
+when I'm done taking those
+inputs in, I'm gonna add that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7469-0
+00:48:41.367 --> 00:48:42.887
+Uh, or I'm sorry.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-0
+00:48:43.297 --> 00:48:46.700
+Well, there you go. I've added
+it to my room. So now if I hover
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-1
+00:48:46.700 --> 00:48:49.944
+over my row, I can see every
+item in that collection. I have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-2
+00:48:49.944 --> 00:48:53.241
+Daniel Blue and two right here.
+Let's set out kind of like an
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-3
+00:48:53.241 --> 00:48:56.272
+array. Like so there's an array
+list because that's more
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-4
+00:48:56.272 --> 00:48:59.729
+flexible, so it should seem kind
+of familiar for this too. Or if
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-5
+00:48:59.729 --> 00:49:02.973
+you've talked to this in the
+past, so now I can see, hey, my
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-6
+00:49:02.973 --> 00:49:06.323
+output rolled that array list is
+populated, all the values are
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-7
+00:49:06.323 --> 00:49:09.514
+right now that I have on my role
+completed on my values are
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7556-8
+00:49:09.514 --> 00:49:12.917
+there. I'm gonna wanna add that
+to my table right? Which is my.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7571-0
+00:49:13.007 --> 00:49:16.600
+Outside list. So that's what
+this is doing here. It's saying
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7571-1
+00:49:16.600 --> 00:49:17.837
+output table add row.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7586-0
+00:49:18.667 --> 00:49:22.294
+Technically speaking, it's list
+dot add another list, right? So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7586-1
+00:49:22.294 --> 00:49:23.937
+that's what we're doing here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7620-0
+00:49:24.637 --> 00:49:27.927
+Add it to my table and then I'm
+going to ask hey, do you want to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7620-1
+00:49:27.927 --> 00:49:31.165
+quit or do you want to continue?
+I'm going to continue and then
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7620-2
+00:49:31.165 --> 00:49:34.252
+it's just gonna go through it
+again. It creates another row.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7620-3
+00:49:34.252 --> 00:49:35.467
+Ask for the first value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7624-0
+00:49:37.697 --> 00:49:39.267
+Uh. Favorite color.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7629-0
+00:49:41.057 --> 00:49:43.387
+And number of pets.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-0
+00:49:44.637 --> 00:49:48.311
+In this case, let's say there's
+just one, and then we're going
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-1
+00:49:48.311 --> 00:49:52.043
+to add that also to the table.
+Now, since we have more than one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-2
+00:49:52.043 --> 00:49:55.776
+value, let's go ahead and hover
+over table and you can see that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-3
+00:49:55.776 --> 00:49:59.333
+table has a collection of two
+items here, and each one is an
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-4
+00:49:59.333 --> 00:50:02.715
+array list. Now if I click on
+each one of those, I'll see
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-5
+00:50:02.715 --> 00:50:06.040
+their own set of collections
+within them, right? So it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-6
+00:50:06.040 --> 00:50:09.888
+displaying what that looks like.
+Down here I have this array list
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-7
+00:50:09.888 --> 00:50:13.446
+and I have this one here, all
+contained within one big array
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7717-8
+00:50:13.446 --> 00:50:15.137
+list, so that's what we want.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7743-0
+00:50:15.977 --> 00:50:19.096
+All right, so I'm going to stop
+it at this point. And I'm gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7743-1
+00:50:19.096 --> 00:50:21.776
+say queue. Let's quit it. And
+now under the part would
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7743-2
+00:50:21.776 --> 00:50:23.287
+actually writes it to the file.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7782-0
+00:50:24.287 --> 00:50:27.653
+Alright, So what we're going to
+do here is we're going to create
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7782-1
+00:50:27.653 --> 00:50:30.812
+a string build. There's a bunch
+of different ways you can do
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7782-2
+00:50:30.812 --> 00:50:34.229
+this. Essentially, you just need
+it to have one string value that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7782-3
+00:50:34.229 --> 00:50:37.232
+has all your or one string of
+characters with your value,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7782-4
+00:50:37.232 --> 00:50:38.527
+comma, value, comma, and.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7785-0
+00:50:39.847 --> 00:50:40.337
+Yeah, yeah.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7865-0
+00:50:42.097 --> 00:50:45.110
+But I'm doing it with a string
+builder here that will kind of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7865-1
+00:50:45.110 --> 00:50:48.318
+like add these values separately
+to a single string, just because
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7865-2
+00:50:48.318 --> 00:50:51.185
+it's easier to follow in my
+opinion, to kind of understand
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7865-3
+00:50:51.185 --> 00:50:54.101
+the different components that
+make up that CSV file. So the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7865-4
+00:50:54.101 --> 00:50:57.212
+first thing we have to do here
+is we're gonna manually actually
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7865-5
+00:50:57.212 --> 00:51:00.274
+put in the values because it's
+going to create that header row
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7865-6
+00:51:00.274 --> 00:51:03.384
+for us. It's going to say name,
+favorite color, number of pets.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7865-7
+00:51:03.384 --> 00:51:05.717
+It's gonna be the header like in
+a spreadsheet.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-0
+00:51:06.397 --> 00:51:09.027
+So when I step through this
+here, it creates a string
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-1
+00:51:09.027 --> 00:51:12.145
+builder and this is just how you
+create it here. So you can use
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-2
+00:51:12.145 --> 00:51:15.263
+this in your assignments. We're
+gonna have to do the append the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-3
+00:51:15.263 --> 00:51:18.283
+append method and all this does
+is it takes in a string value
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-4
+00:51:18.283 --> 00:51:21.352
+and it's just gonna basically
+say. All right, take that string
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-5
+00:51:21.352 --> 00:51:24.372
+and put it in this string that I
+have. I have another one dot
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-6
+00:51:24.372 --> 00:51:27.587
+append. OK now put that right in
+the end of it every append ID is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-7
+00:51:27.587 --> 00:51:30.607
+just gonna keep adding those
+values right to the end and make
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-8
+00:51:30.607 --> 00:51:33.529
+one longer string. So that's
+what it's doing I'm saying add
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-9
+00:51:33.529 --> 00:51:36.403
+name. Now I'm gonna add the
+column comma I could have done
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7944-10
+00:51:36.403 --> 00:51:36.647
+this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7980-0
+00:51:36.717 --> 00:51:40.524
+All on a single append, but I'm
+splitting it up here to show you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7980-1
+00:51:40.524 --> 00:51:44.213
+the separation of the CSV parts,
+right? So then it's gonna add
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7980-2
+00:51:44.213 --> 00:51:47.669
+the comma, then it's gonna add
+favorite color, a comma and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/7980-3
+00:51:47.669 --> 00:51:48.547
+number of pets.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8057-0
+00:51:49.747 --> 00:51:52.889
+Now the important part is after
+this I need to add a line
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8057-1
+00:51:52.889 --> 00:51:56.301
+separator because this is what's
+going to make it jump down to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8057-2
+00:51:56.301 --> 00:51:59.714
+the next line in my CSV file or
+essentially the next row in my
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8057-3
+00:51:59.714 --> 00:52:02.856
+table. If I don't do this, my
+CSV file is going to be one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8057-4
+00:52:02.856 --> 00:52:06.323
+really long line and nothing's
+gonna be separated by rows. It's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8057-5
+00:52:06.323 --> 00:52:09.627
+just gonna think it's all one
+row of data. So it's important
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8057-6
+00:52:09.627 --> 00:52:12.227
+that we put the line separator
+at the end here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8067-0
+00:52:13.907 --> 00:52:17.677
+So once we do that, if I were to
+hover over the USB part.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8114-0
+00:52:18.527 --> 00:52:21.578
+Great. Hover over that that
+string builder object I can
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8114-1
+00:52:21.578 --> 00:52:24.846
+actually see the final CSV
+version right here. This string.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8114-2
+00:52:24.846 --> 00:52:28.006
+This is the single string it
+created and you can see it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8114-3
+00:52:28.006 --> 00:52:31.165
+exactly how I want it. Name
+comma, favorite color, comma,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8114-4
+00:52:31.165 --> 00:52:34.597
+number of pets. Now all we have
+to do is the easy operation of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8114-5
+00:52:34.597 --> 00:52:36.177
+writing this to the file and.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8162-0
+00:52:38.157 --> 00:52:40.863
+Writing something to a file is
+just a very simple one line
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8162-1
+00:52:40.863 --> 00:52:43.660
+part. It's actually creating
+that data that you need. That's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8162-2
+00:52:43.660 --> 00:52:46.549
+the harder part that takes all
+the time. So to do it, you just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8162-3
+00:52:46.549 --> 00:52:49.392
+have to call that object that
+you created way at the top here
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8162-4
+00:52:49.392 --> 00:52:50.217
+and the try block.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8179-0
+00:52:51.117 --> 00:52:54.018
+It's called be, right? So just
+do be writer write and then
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8179-1
+00:52:54.018 --> 00:52:56.477
+inside of that you just pass in
+the string value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8197-0
+00:52:57.497 --> 00:53:00.966
+So that's what you doing SB .2
+string and then it's gonna write
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8197-1
+00:53:00.966 --> 00:53:01.887
+that to the file.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8204-0
+00:53:03.577 --> 00:53:05.807
+So now what we need to do.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8214-0
+00:53:07.327 --> 00:53:10.497
+One here. Let me just see some
+drunk. OK, so now what we need
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8214-1
+00:53:10.497 --> 00:53:11.417
+to do is actually.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-0
+00:53:12.577 --> 00:53:15.291
+Loop through that data that I
+had right the data that we
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-1
+00:53:15.291 --> 00:53:18.148
+collected and then print that
+out. So to do that, I'm gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-2
+00:53:18.148 --> 00:53:20.909
+loop through that table. I'm
+gonna go row by row and then
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-3
+00:53:20.909 --> 00:53:24.052
+each value by column to print it
+out. So I'm gonna use the string
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-4
+00:53:24.052 --> 00:53:27.004
+briller that I've created up
+here, but the first thing I have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-5
+00:53:27.004 --> 00:53:30.004
+to do is clear it out, which is
+what you see here. It needs to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-6
+00:53:30.004 --> 00:53:32.908
+be empty, otherwise it's just
+going to keep appending like I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-7
+00:53:32.908 --> 00:53:35.717
+had mentioned earlier. It's
+going to keep appending to it,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8287-8
+00:53:35.717 --> 00:53:38.717
+and we're just have one really
+big long string at the end. So.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8357-0
+00:53:39.357 --> 00:53:43.658
+I'm creating this loop again.
+You can copy this to create your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8357-1
+00:53:43.658 --> 00:53:47.687
+own loops for the you know
+understand the syntax of how to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8357-2
+00:53:47.687 --> 00:53:51.851
+do it, but it's gonna say I'm
+creating a for loop. I'm gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8357-3
+00:53:51.851 --> 00:53:56.289
+start at the index of 0 and I'm
+going to go all the way until or
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8357-4
+00:53:56.289 --> 00:54:00.386
+it's gonna continue as long as
+that value I or zero is less
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8357-5
+00:54:00.386 --> 00:54:04.619
+than the size of the table. So
+essentially it's just gonna go
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8357-6
+00:54:04.619 --> 00:54:06.667
+through every row that I have.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8376-0
+00:54:08.187 --> 00:54:10.521
+And this is just the increment
+counter here, so that's all it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8376-1
+00:54:10.521 --> 00:54:12.637
+doing. It's just looping through
+every row in that table.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8400-0
+00:54:13.607 --> 00:54:16.256
+So for every row in the table,
+the first thing I have to do,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8400-1
+00:54:16.256 --> 00:54:18.992
+like I said, I have to clear out
+the string builder so you can
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8400-2
+00:54:18.992 --> 00:54:19.947
+just do SB dot delete.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8478-0
+00:54:21.577 --> 00:54:24.201
+We're going to talk. Where to
+start, which is the 0 index and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8478-1
+00:54:24.201 --> 00:54:26.784
+where to end, and then that's
+just going to be the length of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8478-2
+00:54:26.784 --> 00:54:29.408
+it. So it's going to be the the
+whole string builder, all the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8478-3
+00:54:29.408 --> 00:54:32.075
+text within it. We're just going
+to clear it out completely on
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8478-4
+00:54:32.075 --> 00:54:34.784
+now if I hover string build, you
+can see that I have 0 nothings
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8478-5
+00:54:34.784 --> 00:54:37.493
+in there, it's empty count of 0,
+there's no values in it, which
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8478-6
+00:54:37.493 --> 00:54:40.287
+is good. That's what we want. So
+now we have to append the values
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8478-7
+00:54:40.287 --> 00:54:42.657
+that we need, which are gonna be
+for that specific row.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8480-0
+00:54:43.357 --> 00:54:43.837
+Umm.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8559-0
+00:54:44.697 --> 00:54:48.475
+In this case I have output
+table. I need to specify what
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8559-1
+00:54:48.475 --> 00:54:52.517
+row I want which is gonna be
+just essentially what iteration
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8559-2
+00:54:52.517 --> 00:54:56.692
+I'm going through that loop. So
+we're gonna use the I variable
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8559-3
+00:54:56.692 --> 00:55:00.536
+here, which is just the index
+value, so it's set to 0. So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8559-4
+00:55:00.536 --> 00:55:04.380
+we're going to say get zero. I
+mean, that's what it means
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8559-5
+00:55:04.380 --> 00:55:08.621
+really. I 0, which is gonna get
+the first row and then the next
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8559-6
+00:55:08.621 --> 00:55:12.597
+get after that is going to be
+the column. So I know because
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8559-7
+00:55:12.597 --> 00:55:15.447
+I've I created this here. I know
+that the.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8618-0
+00:55:15.587 --> 00:55:19.299
+Index of 0 the first column is
+gonna be for the name and I put
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8618-1
+00:55:19.299 --> 00:55:22.775
+these in comments here so you
+can understand that too. And
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8618-2
+00:55:22.775 --> 00:55:26.193
+then the second one would be
+favorite color and the third
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8618-3
+00:55:26.193 --> 00:55:29.963
+room will be a number of pets.
+It's a zero based index. So it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8618-4
+00:55:29.963 --> 00:55:33.616
+really 01 and two, right. So I
+just, I know that the index of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8618-5
+00:55:33.616 --> 00:55:36.857
+one is the 2nd column and it's
+for the favorite color.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8636-0
+00:55:38.007 --> 00:55:41.274
+So once I do that and I use the
+get on both of those, so again
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8636-1
+00:55:41.274 --> 00:55:43.867
+this gets the row and this gets
+the column value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8640-0
+00:55:44.777 --> 00:55:45.747
+Once I do that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8658-0
+00:55:46.757 --> 00:55:51.051
+I can check and it'll you'll see
+that it added the value here the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8658-1
+00:55:51.051 --> 00:55:52.807
+first row, the first value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-0
+00:55:53.777 --> 00:55:56.853
+For the first column value and
+then I have to add a comma
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-1
+00:55:56.853 --> 00:56:00.140
+support. They add a comma cause
+it's gotta be CSV right? So I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-2
+00:56:00.140 --> 00:56:03.587
+can continue doing that for the
+other two. Again the key here is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-3
+00:56:03.587 --> 00:56:06.716
+to make sure that this just
+increments for each row. So if
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-4
+00:56:06.716 --> 00:56:10.110
+you have in your assignments and
+you have to do, let's see your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-5
+00:56:10.110 --> 00:56:13.556
+file operations data set for the
+crime data is 5 columns and you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-6
+00:56:13.556 --> 00:56:16.791
+want to pull that in or for
+whatever reason I think you have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-7
+00:56:16.791 --> 00:56:19.973
+to read from it. You're gonna
+want to make sure that you're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8741-8
+00:56:19.973 --> 00:56:20.397
+able to.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8770-0
+00:56:21.837 --> 00:56:24.798
+Get those values for all those
+comments so it won't be just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8770-1
+00:56:24.798 --> 00:56:27.661
+012, it would be 012345 or
+whatever. I think this applies
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8770-2
+00:56:27.661 --> 00:56:29.487
+more for your BMI calculator
+though.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8844-0
+00:56:30.817 --> 00:56:33.903
+OK. So then that's it. If I look
+at SBC after that, I can see
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8844-1
+00:56:33.903 --> 00:56:37.188
+that there's my CSV line, Daniel
+Blue too. Now it's gonna want to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8844-2
+00:56:37.188 --> 00:56:39.976
+write that immediately
+afterwards. So within that loop,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8844-3
+00:56:39.976 --> 00:56:43.211
+for each iteration of you going
+through it, essentially each row
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8844-4
+00:56:43.211 --> 00:56:46.098
+you're going to want to clear
+out the string builder, add
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8844-5
+00:56:46.098 --> 00:56:49.035
+those values for the row, and
+then write it every time. So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8844-6
+00:56:49.035 --> 00:56:52.071
+you're going to create that row
+and write it. So that's what
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8844-7
+00:56:52.071 --> 00:56:55.257
+it's doing there. And then it's
+going to do this one more time.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8929-0
+00:56:56.767 --> 00:57:00.312
+After that's done, it's going to
+say, hey, I have an index of 1
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8929-1
+00:57:00.312 --> 00:57:03.802
+and my total size of the table
+is. It's not gonna tell us, but
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8929-2
+00:57:03.802 --> 00:57:06.905
+it's gonna be 2. So if I
+increment at one more, it's no
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8929-3
+00:57:06.905 --> 00:57:10.394
+longer gonna meet the criteria
+of being less than two, so it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8929-4
+00:57:10.394 --> 00:57:13.884
+going to exit out, and that's
+what happens here. It exits out,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8929-5
+00:57:13.884 --> 00:57:17.430
+so there's no exception. So it
+didn't catch anything. Now we're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8929-6
+00:57:17.430 --> 00:57:20.698
+in the finally block. We're
+gonna close it. The program is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8929-7
+00:57:20.698 --> 00:57:22.637
+exiting, and we're all good to
+go.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8969-0
+00:57:24.047 --> 00:57:27.330
+And the program has stopped. OK,
+so now that we're in here, I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8969-1
+00:57:27.330 --> 00:57:30.561
+have the output and let me open
+up that file and you can see
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8969-2
+00:57:30.561 --> 00:57:33.950
+it's right here. It opens up an
+excel by default, but you see I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8969-3
+00:57:33.950 --> 00:57:34.797
+have my headers.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8989-0
+00:57:35.677 --> 00:57:38.660
+Name favorite color, number of
+pets, and then I had those
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8989-1
+00:57:38.660 --> 00:57:41.953
+values that it added there. So
+it did on row by row. That's how
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/8989-2
+00:57:41.953 --> 00:57:42.827
+we did them here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9014-0
+00:57:46.207 --> 00:57:49.958
+If I wanted to actually look at
+the CSV part, I would just open
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9014-1
+00:57:49.958 --> 00:57:53.534
+it in Notepad and you can see
+here's the exact CSV formatted
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9014-2
+00:57:53.534 --> 00:57:53.827
+rows.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9039-0
+00:57:54.577 --> 00:57:57.462
+Formatted strengths. So that's
+how you create the output demo.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9039-1
+00:57:57.462 --> 00:58:00.210
+Now for the input one, you're
+just reading those values in.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9039-2
+00:58:00.210 --> 00:58:01.217
+This is a bit shorter.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9046-0
+00:58:02.777 --> 00:58:05.147
+This one is going to be.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9058-0
+00:58:07.537 --> 00:58:10.579
+Your assignment, not the course
+project, but the actual
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9058-1
+00:58:10.579 --> 00:58:11.177
+assignment.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9061-0
+00:58:12.097 --> 00:58:12.857
+I believe.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9089-0
+00:58:13.897 --> 00:58:16.868
+You could just use this example.
+This should be the template you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9089-1
+00:58:16.868 --> 00:58:19.701
+use. You should only have to use
+this one because you already
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9089-2
+00:58:19.701 --> 00:58:22.535
+have that file created, so this
+would be a good thing to keep
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9089-3
+00:58:22.535 --> 00:58:24.637
+note of is you can pretty much
+just use this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9094-0
+00:58:25.587 --> 00:58:26.727
+Plug in your own stuff though.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9128-0
+00:58:28.297 --> 00:58:32.043
+Alright, so the way this works
+here is we're going to specify
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9128-1
+00:58:32.043 --> 00:58:35.667
+the file path of our file that
+we're going to read. In your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9128-2
+00:58:35.667 --> 00:58:38.567
+case, it would be the file
+operations data set.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9152-0
+00:58:39.517 --> 00:58:42.351
+I think that's what it was
+calling it, right? Yeah, which
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9152-1
+00:58:42.351 --> 00:58:45.136
+is the crime data for your
+module 4 assignment. Wherever
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9152-2
+00:58:45.136 --> 00:58:45.967
+you save that to.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9182-0
+00:58:47.337 --> 00:58:51.444
+My color and pets demo thing is
+just saved right here. I know it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9182-1
+00:58:51.444 --> 00:58:55.424
+is, so that's what I'm creating
+it here. I'm going to create a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9182-2
+00:58:55.424 --> 00:58:58.077
+buffered reader. If you noticed
+for this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9194-0
+00:58:59.067 --> 00:59:01.622
+Output demo that I just did. It
+was a buffered writer because
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9194-1
+00:59:01.622 --> 00:59:02.487
+you're writing to it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9255-0
+00:59:03.347 --> 00:59:06.592
+In this case here I want to read
+from the file, so I'm creating a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9255-1
+00:59:06.592 --> 00:59:09.443
+buffered reader. I have to
+create the exact same way. The
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9255-2
+00:59:09.443 --> 00:59:12.442
+only difference from the other
+example is that I actually am
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9255-3
+00:59:12.442 --> 00:59:15.687
+using a file path variable and I
+created that way at the top here
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9255-4
+00:59:15.687 --> 00:59:18.637
+you could hard code this and
+just copy that, put the quoted
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9255-5
+00:59:18.637 --> 00:59:21.489
+part directly into the file
+reader parentheses here maybe
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9255-6
+00:59:21.489 --> 00:59:22.177
+just fine too.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9262-0
+00:59:24.207 --> 00:59:25.957
+OK, so it creates the buffered
+reader.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9307-0
+00:59:26.957 --> 00:59:30.453
+Again, we're using this whole
+list of lists thing. Think of it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9307-1
+00:59:30.453 --> 00:59:33.949
+as tables and rows. I'm creating
+that first and then I have to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9307-2
+00:59:33.949 --> 00:59:37.501
+read through every single line
+in this file and then it's gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9307-3
+00:59:37.501 --> 00:59:40.830
+add that into an array. So
+you'll see what that looks like.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9307-4
+00:59:40.830 --> 00:59:44.271
+Here I'm creating this string
+value here that's called reader
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9307-5
+00:59:44.271 --> 00:59:45.547
+line is basically just.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9374-0
+00:59:45.947 --> 00:59:49.947
+Umm. A string value for every
+single line that we have. It's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9374-1
+00:59:49.947 --> 00:59:54.144
+going to loop through all of the
+lines in this entire file, all
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9374-2
+00:59:54.144 --> 00:59:58.275
+with three of them I guess, and
+it's gonna read each one. This
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9374-3
+00:59:58.275 --> 01:00:02.275
+loop is set to go through it
+until it finds no more of them,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9374-4
+01:00:02.275 --> 01:00:06.537
+right? So it's going to go read
+line or I'm sorry, be reader dot
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9374-5
+01:00:06.537 --> 01:00:07.127
+readline.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9385-0
+01:00:08.187 --> 01:00:11.397
+Until it's not equal to null, so
+when it returns a value back.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9431-0
+01:00:12.887 --> 01:00:15.339
+It's not going to be null, but
+when it runs out of lines to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9431-1
+01:00:15.339 --> 01:00:17.751
+read, that's the null value.
+It'll see and then it'll exit
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9431-2
+01:00:17.751 --> 01:00:20.081
+out because of that. So that's
+what the checking for it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9431-3
+01:00:20.081 --> 01:00:22.411
+Basically this whole line is
+just saying hey, as long as
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9431-4
+01:00:22.411 --> 01:00:24.577
+there's stuff to read, just keep
+looping through it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9499-0
+01:00:26.357 --> 01:00:30.328
+So I'm in my loop and I have
+this reader line here because I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9499-1
+01:00:30.328 --> 01:00:34.300
+created it from B reader dot
+read line. It kind of like next
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9499-2
+01:00:34.300 --> 01:00:38.532
+line for the scanner except this
+doesn't take your typing input,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9499-3
+01:00:38.532 --> 01:00:42.698
+it just reads it from the file.
+So read line it took that value
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9499-4
+01:00:42.698 --> 01:00:46.735
+and assigned it to reader line.
+Here that I have and now if I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9499-5
+01:00:46.735 --> 01:00:50.641
+hover over it hopefully we can
+see it took the entire first
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9499-6
+01:00:50.641 --> 01:00:51.357
+line there.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9503-0
+01:00:52.237 --> 01:00:53.287
+And that string format.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9582-0
+01:00:54.137 --> 01:00:57.533
+But this is a single string
+value, so we need to split it up
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9582-1
+01:00:57.533 --> 01:01:00.873
+because it's a CSV format,
+right? So to do that it's pretty
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9582-2
+01:01:00.873 --> 01:01:04.381
+easy. Fortunately we have this
+awesome string operation that's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9582-3
+01:01:04.381 --> 01:01:07.665
+built in for us called split.
+The split method we call the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9582-4
+01:01:07.665 --> 01:01:11.117
+split method and then we just
+specify what the criteria is or
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9582-5
+01:01:11.117 --> 01:01:14.680
+what value you want it to split
+based off of. And this thing in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9582-6
+01:01:14.680 --> 01:01:18.020
+this case we're saying split
+based off the comma and that's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9582-7
+01:01:18.020 --> 01:01:20.247
+what we're doing here. So I'm
+going to.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9620-0
+01:01:21.317 --> 01:01:24.767
+What's what's split? Does it
+actually returns an array? It
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9620-1
+01:01:24.767 --> 01:01:28.510
+turns that collection of values
+based on splitting it from that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9620-2
+01:01:28.510 --> 01:01:32.194
+comma value. So that's exactly
+what we're gonna do here. We're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9620-3
+01:01:32.194 --> 01:01:35.762
+going to go call that, and if we
+see it actually creates the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9620-4
+01:01:35.762 --> 01:01:37.867
+array for us. And if you look
+here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9647-0
+01:01:39.157 --> 01:01:42.318
+They're split up. I have three
+different elements here. Name,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9647-1
+01:01:42.318 --> 01:01:45.633
+favorite color, number of pets.
+And instead of being one string,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9647-2
+01:01:45.633 --> 01:01:47.927
+it's an array of three submit
+string values.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9687-0
+01:01:49.677 --> 01:01:53.776
+Now I'm going to add this to our
+input table, right? It's gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9687-1
+01:01:53.776 --> 01:01:57.811
+be the header, but so it's gonna
+be like the first row, but it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9687-2
+01:01:57.811 --> 01:02:01.846
+it's it's gonna be in that like
+rows and columns format. So to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9687-3
+01:02:01.846 --> 01:02:05.945
+do this I'm gonna use an array
+the erase class and do erase dot
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9687-4
+01:02:05.945 --> 01:02:06.457
+as list.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9750-0
+01:02:07.137 --> 01:02:10.518
+And then I passed in the array.
+What this does is essentially
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9750-1
+01:02:10.518 --> 01:02:13.898
+just converts that array into a
+list format, which is what we
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9750-2
+01:02:13.898 --> 01:02:17.224
+want to use because our table is
+made U of lists right O all
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9750-3
+01:02:17.224 --> 01:02:20.605
+we're doing is converting that
+over to it and then it adds it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9750-4
+01:02:20.605 --> 01:02:23.985
+directly. So it's just taking
+this table and it's adding this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9750-5
+01:02:23.985 --> 01:02:27.257
+row directly to it. It's just
+doing the conversion in line.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9769-0
+01:02:28.007 --> 01:02:31.697
+So that's all it's doing. It's a
+very short two line loop there.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9769-1
+01:02:31.697 --> 01:02:33.967
+It's gonna go through it one
+more time.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9789-0
+01:02:35.637 --> 01:02:39.208
+Now when we hover over input
+table we can see we have three
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9789-1
+01:02:39.208 --> 01:02:41.887
+sets of array lists and the
+listed out here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9793-0
+01:02:42.777 --> 01:02:44.157
+Exactly what we're expecting.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9854-0
+01:02:45.147 --> 01:02:48.803
+So basically we just what we did
+was we took a bunch of data
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9854-1
+01:02:48.803 --> 01:02:52.340
+collections of data from the
+first demo we took that data,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9854-2
+01:02:52.340 --> 01:02:56.176
+put it into string values, comma
+separated, wrote it to a file.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9854-3
+01:02:56.176 --> 01:03:00.132
+Now what we did was we just took
+those string values, read all of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9854-4
+01:03:00.132 --> 01:03:03.729
+them, split them up by commas
+and then put them back into a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9854-5
+01:03:03.729 --> 01:03:05.587
+data format of tables and rows.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9893-0
+01:03:06.647 --> 01:03:09.617
+And that's what we just did.
+Just bring it right back. So now
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9893-1
+01:03:09.617 --> 01:03:12.683
+what we're going to do through,
+excuse me. Now what we're going
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9893-2
+01:03:12.683 --> 01:03:15.462
+to do at this point here is
+we're going to basically just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9893-3
+01:03:15.462 --> 01:03:18.528
+print out the values just so you
+can see them. O fortunately, I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9893-4
+01:03:18.528 --> 01:03:19.007
+only have.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9947-0
+01:03:20.177 --> 01:03:22.484
+Three of them to go through
+here, but this is just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9947-1
+01:03:22.484 --> 01:03:25.288
+displaying those for you that
+say, hey, Yep. Look, I have all
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9947-2
+01:03:25.288 --> 01:03:28.183
+of these roads that I wanted to
+now for your assignment. So you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9947-3
+01:03:28.183 --> 01:03:30.852
+didn't really need that part
+that I just went through that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9947-4
+01:03:30.852 --> 01:03:33.566
+loop. But for your assignment,
+this part really applies for
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9947-5
+01:03:33.566 --> 01:03:33.747
+you.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9958-0
+01:03:34.967 --> 01:03:38.204
+I'm finding the total number of
+pets you need to find the total
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9958-1
+01:03:38.204 --> 01:03:38.507
+crime.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9966-0
+01:03:40.807 --> 01:03:43.097
+What is it? It's a total.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9984-0
+01:03:44.037 --> 01:03:47.405
+Crime per year? Let me see what
+come this expense report. Your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/9984-1
+01:03:47.405 --> 01:03:50.827
+total, I guess, right. So this
+will be the last column for you.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10038-0
+01:03:51.537 --> 01:03:55.031
+And that file you have to total
+those up. So in my case I'm just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10038-1
+01:03:55.031 --> 01:03:58.363
+going to say, hey, total of the
+number of pets, also the last
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10038-2
+01:03:58.363 --> 01:04:01.641
+column in my list or in my,
+yeah, I guess list of values. So
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10038-3
+01:04:01.641 --> 01:04:04.812
+I have like 2 and one right
+you'll have like 14,000 values
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10038-4
+01:04:04.812 --> 01:04:07.715
+but so that's what this is
+doing. I'm setting it, I'm
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10038-5
+01:04:07.715 --> 01:04:11.208
+declaring this first, setting it
+to 0 just so I have it here and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10038-6
+01:04:11.208 --> 01:04:11.907
+I can use it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10083-0
+01:04:13.647 --> 01:04:17.777
+And then next, I'm going to
+specify the index of the value
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10083-1
+01:04:17.777 --> 01:04:21.837
+that I want, like the column O.
+In this case. I know from
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10083-2
+01:04:21.837 --> 01:04:25.967
+looking at the file that the
+value I want for my number of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10083-3
+01:04:25.967 --> 01:04:30.447
+pets is the last column, so it's
+pretty easy because I can just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10083-4
+01:04:30.447 --> 01:04:31.567
+say input table.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10120-0
+01:04:32.847 --> 01:04:36.979
+That get 0 dot size minus one,
+so it's going to say hey, give
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10120-1
+01:04:36.979 --> 01:04:41.112
+me the first row and give me the
+last index that you have for
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10120-2
+01:04:41.112 --> 01:04:45.377
+that row. I only need to do the
+first row because all the other
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10120-3
+01:04:45.377 --> 01:04:46.577
+rows are the same.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10176-0
+01:04:47.337 --> 01:04:51.176
+So as long as I see that first
+row which is the header row in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10176-1
+01:04:51.176 --> 01:04:55.139
+this case and I can say how big
+is it? OK, it's a size of. Well
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10176-2
+01:04:55.139 --> 01:04:58.917
+my case it'll be the size of
+three, then git 3 -, 1 which is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10176-3
+01:04:58.917 --> 01:05:02.756
+2. So that means the last index
+that I can have is 2. So if I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10176-4
+01:05:02.756 --> 01:05:06.038
+ask for the value at the
+location of index two, it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10176-5
+01:05:06.038 --> 01:05:08.267
+going to give me that third
+column.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10203-0
+01:05:09.307 --> 01:05:12.533
+I know it's it's weird to follow
+along with the whole 0 based
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10203-1
+01:05:12.533 --> 01:05:15.812
+index thing, but that's how they
+all work. So if you see here,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10203-2
+01:05:15.812 --> 01:05:17.477
+last column index is set to two.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10215-0
+01:05:18.617 --> 01:05:21.682
+Because I know I only have 3
+columns, you'll have more in
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10215-1
+01:05:21.682 --> 01:05:22.527
+your assignment.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10224-0
+01:05:23.287 --> 01:05:25.527
+And the next I need to loop
+through it because.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10275-0
+01:05:26.697 --> 01:05:30.187
+Umm, I'm sorry, I need to loop
+through it now for every row to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10275-1
+01:05:30.187 --> 01:05:33.677
+add them all up. You'll have to
+do the same for you. I'm using
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10275-2
+01:05:33.677 --> 01:05:37.223
+this loop right here. Go ahead
+and use the same loop. What this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10275-3
+01:05:37.223 --> 01:05:40.491
+is doing is it's going to start
+and say loop through every
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10275-4
+01:05:40.491 --> 01:05:41.987
+single row and just add up.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10289-0
+01:05:42.847 --> 01:05:45.314
+The values in that last column,
+right, which is why it was
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10289-1
+01:05:45.314 --> 01:05:46.987
+important to get the last column
+index.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10324-0
+01:05:48.007 --> 01:05:51.035
+So if you notice here I have I =
+1 instead of 0 and that's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10324-1
+01:05:51.035 --> 01:05:54.115
+because I don't want to add up
+the value from the first row
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10324-2
+01:05:54.115 --> 01:05:57.503
+because it's just the header. So
+I'm gonna start it with an index
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10324-3
+01:05:57.503 --> 01:05:59.607
+of 1, which is actually the the
+2nd row.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10348-0
+01:06:00.747 --> 01:06:03.430
+So that way it skips the first
+one. Otherwise if we try to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10348-1
+01:06:03.430 --> 01:06:06.295
+include it, we'd immediately get
+an exception thrown at us and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10348-2
+01:06:06.295 --> 01:06:09.070
+that wouldn't work because we
+don't want to add U the header
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10348-3
+01:06:09.070 --> 01:06:09.297
+name.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10352-0
+01:06:09.967 --> 01:06:10.767
+When a column name.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10375-0
+01:06:11.557 --> 01:06:14.413
+So this this is just a loop
+simple loop, it's gonna go
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10375-1
+01:06:14.413 --> 01:06:17.685
+through every single row and in
+here every row it's just gonna
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10375-2
+01:06:17.685 --> 01:06:19.347
+say hey look at the input table.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10402-0
+01:06:20.507 --> 01:06:24.749
+Get whatever row I want to be
+on. In this case it's going to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10402-1
+01:06:24.749 --> 01:06:29.130
+start with one, so is going to
+be one and then within that row
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10402-2
+01:06:29.130 --> 01:06:31.147
+get me the last column value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10426-0
+01:06:32.297 --> 01:06:34.845
+Right. I could have put two in
+there, but I'm trying to do it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10426-1
+01:06:34.845 --> 01:06:37.475
+right because I know that it's
+the last column. So in the event
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10426-2
+01:06:37.475 --> 01:06:39.982
+that I, you know, add more in
+front of it, I'll still always
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10426-3
+01:06:39.982 --> 01:06:40.927
+have the correct value.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-0
+01:06:42.007 --> 01:06:45.189
+So that's what I'm doing here.
+And then if you see I'm doing a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-1
+01:06:45.189 --> 01:06:48.473
+plus equals. So I'm saying total
+number of pets plus equals this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-2
+01:06:48.473 --> 01:06:51.301
+value. That means it's just
+gonna increments it or it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-3
+01:06:51.301 --> 01:06:54.282
+gonna add to itself every time.
+So this is gonna say total
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-4
+01:06:54.282 --> 01:06:57.161
+number of pets equals total
+number of pets plus whatever
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-5
+01:06:57.161 --> 01:07:00.242
+this value is. So we'll see what
+that looks like right here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-6
+01:07:00.242 --> 01:07:03.424
+Since total of pets was zero.
+When I add the value to it, it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-7
+01:07:03.424 --> 01:07:06.758
+just gonna be 2 because it's 0 +
+2. Right. But we should see next
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-8
+01:07:06.758 --> 01:07:10.092
+it's gonna try and add one to it
+because my number of pets for my
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10511-9
+01:07:10.092 --> 01:07:11.557
+second set of inputs was one.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10534-0
+01:07:12.337 --> 01:07:15.482
+Now told him her pets will be
+set to three because it just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10534-1
+01:07:15.482 --> 01:07:18.787
+said take toll number of pets,
+which was two and then add one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10534-2
+01:07:18.787 --> 01:07:19.107
+to it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10550-0
+01:07:19.847 --> 01:07:22.624
+And so that's how that works. So
+I would suggest using that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10550-1
+01:07:22.624 --> 01:07:23.827
+shorthand. It's just nice.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10566-0
+01:07:25.467 --> 01:07:28.281
+That's all I had. So then I'm
+going to print out the total
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10566-1
+01:07:28.281 --> 01:07:31.333
+number of pets and yeah, that's
+what it looks like there on the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10566-2
+01:07:31.333 --> 01:07:31.667
+bottom.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10583-0
+01:07:32.917 --> 01:07:35.753
+So really the important part is
+going to be for your assignment.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10583-1
+01:07:35.753 --> 01:07:38.197
+It's going to be this. You have
+to print out the total.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10594-0
+01:07:39.587 --> 01:07:41.437
+Or I'm sorry. You actually have
+to write the total.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10636-0
+01:07:43.087 --> 01:07:45.806
+I just printed it out. You
+actually have to write it so
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10636-1
+01:07:45.806 --> 01:07:48.719
+it's slightly misleading there,
+but you actually have to do
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10636-2
+01:07:48.719 --> 01:07:51.486
+output. You actually have to
+output this, but it's super
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10636-3
+01:07:51.486 --> 01:07:54.448
+simple because all you have to
+do is create a writer and you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10636-4
+01:07:54.448 --> 01:07:55.467
+can just simply call.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10643-0
+01:07:57.187 --> 01:07:59.797
+Like this right here. That's all
+you really have to do.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10662-0
+01:08:01.287 --> 01:08:03.933
+I mean in this case I don't have
+it created but like instead of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10662-1
+01:08:03.933 --> 01:08:05.917
+printing it like I did, you
+could just do this.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10665-0
+01:08:06.897 --> 01:08:07.407
+Umm.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10675-0
+01:08:10.767 --> 01:08:13.047
+Wow, I'm gonna be lazy and I'm
+just going to copy what I have.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10685-0
+01:08:32.507 --> 01:08:34.657
+There you go. I think it just
+made this too easy.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10698-0
+01:08:38.427 --> 01:08:41.559
+Yeah. So what this does is this
+is just gonna write that to the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10698-1
+01:08:41.559 --> 01:08:42.097
+file there.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10718-0
+01:08:44.577 --> 01:08:47.316
+Except I just continued through
+it, so it's going to be really
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10718-1
+01:08:47.316 --> 01:08:49.707
+quick. So let's see here.
+Alright, program is exiting.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10724-0
+01:08:51.457 --> 01:08:53.987
+It's not say that alright.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10733-0
+01:08:56.517 --> 01:09:00.927
+So when you do this, let's see
+the number of pets.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10741-0
+01:09:02.547 --> 01:09:06.367
+Crater, right. Well, I do need
+to probably put it in my.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10747-0
+01:09:07.037 --> 01:09:08.477
+Let's try this out real quick.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10752-0
+01:09:21.517 --> 01:09:21.907
+Oh.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10765-0
+01:09:35.277 --> 01:09:38.445
+Alright, let me check some not
+there. Ohh man the values all
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10765-1
+01:09:38.445 --> 01:09:38.757
+weird.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10771-0
+01:09:42.477 --> 01:09:43.947
+But that's how you have to write
+it to it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10819-0
+01:09:45.307 --> 01:09:47.904
+You can have to make sure you
+create a buffer right, but it'll
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10819-1
+01:09:47.904 --> 01:09:50.584
+be simple. You don't have to do
+all that other stuff that I just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10819-2
+01:09:50.584 --> 01:09:53.099
+did in the other table, you
+know, with like the whole string
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10819-3
+01:09:53.099 --> 01:09:55.696
+builder is appending it all to
+the output table. You just have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10819-4
+01:09:55.696 --> 01:09:58.211
+to output it. I don't really
+care if it's like fancy, I just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10819-5
+01:09:58.211 --> 01:09:59.077
+need to have the one.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10876-0
+01:10:00.017 --> 01:10:03.506
+Cell that's gonna stay. Like
+what? The total is, it could
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10876-1
+01:10:03.506 --> 01:10:06.996
+just be a simple number. You
+don't have to have that. CSV
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10876-2
+01:10:06.996 --> 01:10:10.726
+just has to put it in the CSV
+format I guess is what it says.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10876-3
+01:10:10.726 --> 01:10:14.456
+So just output that not printing
+out like I did. So I kind of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10876-4
+01:10:14.456 --> 01:10:18.186
+actually want to have you guys
+work on that one, but it's all
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10876-5
+01:10:18.186 --> 01:10:18.727
+there so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10887-0
+01:10:20.177 --> 01:10:24.147
+This pretty much entire input
+demo one you can use.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10907-0
+01:10:24.897 --> 01:10:27.692
+The only thing you would have to
+really add on your own is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10907-1
+01:10:27.692 --> 01:10:30.487
+actually the buffered writer
+part. Writing it to the file.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10930-0
+01:10:32.667 --> 01:10:35.417
+Now your BMI. You know what? Let
+me just go through the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10930-1
+01:10:35.417 --> 01:10:38.363
+assignment instructions first,
+but OK. So I'm going to post
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10930-2
+01:10:38.363 --> 01:10:40.867
+these demos. Hopefully I'll can
+follow through it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10968-0
+01:10:45.387 --> 01:10:48.346
+All right, of course. Bridge
+assignment. OK, so for the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10968-1
+01:10:48.346 --> 01:10:51.834
+actual assignment, here are your
+instructions. Ohh for the course
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10968-2
+01:10:51.834 --> 01:10:54.952
+project assignment. Yeah, the
+instructions. Just one step,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/10968-3
+01:10:54.952 --> 01:10:58.017
+step 6. So you gotta store all
+the information in a file.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11036-0
+01:10:59.007 --> 01:11:02.570
+You need to use a loop and keep
+asking the users to enter the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11036-1
+01:11:02.570 --> 01:11:06.190
+patients name, height, weight
+and birthday. Your program needs
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11036-2
+01:11:06.190 --> 01:11:09.926
+to calculate the categories just
+like you're normally doing, but
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11036-3
+01:11:09.926 --> 01:11:13.316
+you need to now write it to a
+file and then because you're
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11036-4
+01:11:13.316 --> 01:11:16.707
+using a loop to take in the
+input values, you need to have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11036-5
+01:11:16.707 --> 01:11:20.097
+it stop taking the inputs once
+they press the Q character.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11063-0
+01:11:21.757 --> 01:11:24.734
+Qki. Whatever. Umm, so that's
+really the requirement here is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11063-1
+01:11:24.734 --> 01:11:27.613
+that you need to be able to
+write it to the program or I'm
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11063-2
+01:11:27.613 --> 01:11:29.467
+sorry, write it to the file and
+then.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11097-0
+01:11:31.067 --> 01:11:33.815
+Excuse me? Uh, stop. When they
+press the Q character. So you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11097-1
+01:11:33.815 --> 01:11:36.563
+should just be building on to
+your program there. So instead
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11097-2
+01:11:36.563 --> 01:11:39.491
+of having it be more linear with
+just once of inputs, you got to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11097-3
+01:11:39.491 --> 01:11:40.437
+throw that in a loop.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11114-0
+01:11:44.607 --> 01:11:50.427
+So maybe I misspoke when I
+stated this, but for the BMI.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-0
+01:11:51.707 --> 01:11:55.241
+Project I believe you only need
+to use just the output demo
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-1
+01:11:55.241 --> 01:11:58.481
+because all you're doing is
+taking in these values and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-2
+01:11:58.481 --> 01:12:01.721
+you're outputting it right. Of
+course you need to also
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-3
+01:12:01.721 --> 01:12:05.549
+calculate the BMI and stuff, but
+you're gonna be doing that just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-4
+01:12:05.549 --> 01:12:09.201
+within this while loop. You can
+do all your calculations, all
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-5
+01:12:09.201 --> 01:12:12.736
+that stuff for each set of
+inputs, and you're gonna want to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-6
+01:12:12.736 --> 01:12:16.564
+save it. You could do it if you
+different ways, but you could do
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-7
+01:12:16.564 --> 01:12:20.158
+it all within your while loop
+and just save it directly as a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11185-8
+01:12:20.158 --> 01:12:22.337
+row each time, just like I did
+here.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11213-0
+01:12:23.797 --> 01:12:27.185
+And then go through afterwards
+and then create your string
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11213-1
+01:12:27.185 --> 01:12:30.917
+builders or your string builder
+and then write it to it. But you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11213-2
+01:12:30.917 --> 01:12:34.478
+should only need to use just
+this one output demo or your BMI
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11213-3
+01:12:34.478 --> 01:12:34.937
+project.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11226-0
+01:12:36.117 --> 01:12:39.087
+But for the assignment, you'll
+have to use both like I just
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11226-1
+01:12:39.087 --> 01:12:41.117
+showed you, or at least part of
+the one.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11285-0
+01:12:42.637 --> 01:12:45.329
+So for this one you need to
+download that file. I already
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11285-1
+01:12:45.329 --> 01:12:47.929
+showed it to you, but again I'll
+post it. It's the file
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11285-2
+01:12:47.929 --> 01:12:50.993
+operations data set, so step one
+read the data from the CSV file.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11285-3
+01:12:50.993 --> 01:12:53.592
+That's what you have to do,
+right? You have to read the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11285-4
+01:12:53.592 --> 01:12:56.424
+data. I just had my demo there
+show you how to read the case
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11285-5
+01:12:56.424 --> 01:12:58.327
+file, CSV file, Step 2 analyze
+the data.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11302-0
+01:12:59.787 --> 01:13:02.679
+Now that means is to like, just
+understand what it what it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11302-1
+01:13:02.679 --> 01:13:04.717
+doing like what's the context of
+the data.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11320-0
+01:13:06.277 --> 01:13:08.972
+Yeah, it it doesn't actually
+mean to like do anything
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11320-1
+01:13:08.972 --> 01:13:12.017
+technical with it. Just like,
+yeah, it's there and analyzing
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11320-2
+01:13:12.017 --> 01:13:12.167
+it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11379-0
+01:13:13.157 --> 01:13:16.249
+And then Step 3 Add all the
+numbers from the report. Your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11379-1
+01:13:16.249 --> 01:13:19.394
+total column right. So in my
+example I had total number of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11379-2
+01:13:19.394 --> 01:13:22.805
+pets. Do you will have to do the
+report your total column? It's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11379-3
+01:13:22.805 --> 01:13:26.217
+the last column so that should
+make it easier for you. And then
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11379-4
+01:13:26.217 --> 01:13:29.309
+step four create another file
+and write the output of the
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11379-5
+01:13:29.309 --> 01:13:32.187
+total crime numbers that you've
+added up from Step 3.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11400-0
+01:13:32.947 --> 01:13:35.978
+Again, I just showed you you
+just need to output that one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11400-1
+01:13:35.978 --> 01:13:39.166
+value. You don't have to do any
+type of string builder stuff
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11400-2
+01:13:39.166 --> 01:13:41.517
+just to you know your your
+writer dot write.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11408-0
+01:13:42.327 --> 01:13:44.447
+Straight to the file and you'll
+be just fine.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11418-0
+01:13:49.907 --> 01:13:54.707
+Umm, OK, so let's see. That's
+gonna be that.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11483-0
+01:13:55.907 --> 01:13:59.327
+Yeah. So you just need one Java
+file for this one for this
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11483-1
+01:13:59.327 --> 01:14:02.979
+assignment, and you'll be just
+fine actually, for both. You'll
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11483-2
+01:14:02.979 --> 01:14:06.515
+only really need the one Java
+file each each assignment. OK,
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11483-3
+01:14:06.515 --> 01:14:10.167
+the tips? I guess this really
+isn't helpful if you just use my
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11483-4
+01:14:10.167 --> 01:14:13.530
+demos, you can use the code from
+there, but you want your
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11483-5
+01:14:13.530 --> 01:14:14.457
+buffered reader.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11493-0
+01:14:15.727 --> 01:14:18.858
+Use the buffered reader class.
+Yeah, watch the demo. There you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11493-1
+01:14:18.858 --> 01:14:19.007
+go.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11496-0
+01:14:20.897 --> 01:14:21.367
+Alright.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11524-0
+01:14:22.137 --> 01:14:25.519
+Discussion this one on input and
+output streams. Compare and
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11524-1
+01:14:25.519 --> 01:14:29.067
+contrast the input versus output
+streams like give at least one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11524-2
+01:14:29.067 --> 01:14:32.005
+example of an input and output
+stream. I mean pretty
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11524-3
+01:14:32.005 --> 01:14:32.947
+self-explanatory.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11538-0
+01:14:34.127 --> 01:14:36.990
+I just don't just stay there
+like once for input, once for
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11538-1
+01:14:36.990 --> 01:14:39.367
+output actually specify some
+differences though.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11542-0
+01:14:40.087 --> 01:14:41.347
+OK, discussion rules.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11545-0
+01:14:42.117 --> 01:14:43.137
+Already went over those.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11569-0
+01:14:44.177 --> 01:14:47.503
+So I'm gonna skip through that
+live classroom assignment, which
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11569-1
+01:14:47.503 --> 01:14:50.673
+is preferred buffered or non
+buffered stream. I feel like if
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11569-2
+01:14:50.673 --> 01:14:53.427
+you're watching you should
+definitely know that one.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11595-0
+01:14:54.397 --> 01:14:58.009
+All right. Oh, midterm service.
+OK, so by now, hopefully you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11595-1
+01:14:58.009 --> 01:15:01.799
+would have gotten an e-mail. I'm
+thinking about taking, like, a
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11595-2
+01:15:01.799 --> 01:15:02.687
+midterm survey.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11601-0
+01:15:03.327 --> 01:15:06.957
+Umm, that is actually located.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11607-0
+01:15:07.797 --> 01:15:09.847
+I think it's gonna be located.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11611-0
+01:15:12.607 --> 01:15:13.947
+Uh, not there.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11619-0
+01:15:15.087 --> 01:15:16.917
+Uh, where is it? Is it in module
+4?
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11625-0
+01:15:18.197 --> 01:15:19.497
+Maybe I'm just not seeing it.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11667-0
+01:15:20.607 --> 01:15:23.879
+I'll leave if someone else knows
+where it's at. Module 3 it's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11667-1
+01:15:23.879 --> 01:15:26.940
+like. There you go. It's in
+module 3. Maybe I should have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11667-2
+01:15:26.940 --> 01:15:30.265
+mentioned it there. Module 3,
+There's this midterm survey that
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11667-3
+01:15:30.265 --> 01:15:33.378
+you can take at the bottom
+there. And I I suggest doing it
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11667-4
+01:15:33.378 --> 01:15:35.067
+if you can. It's really helpful.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11682-0
+01:15:36.287 --> 01:15:40.760
+It's just going to be some basic
+questions about the course and I
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11682-1
+01:15:40.760 --> 01:15:41.167
+think.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11688-0
+01:15:42.337 --> 01:15:43.797
+Pretty much anything related to
+the course.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11698-0
+01:15:45.037 --> 01:15:47.566
+It'd be great if you could take
+it. Any feedback is good, good
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11698-1
+01:15:47.566 --> 01:15:47.847
+or bad.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11734-0
+01:15:49.167 --> 01:15:52.295
+It'll just help me as an
+instructor to be better and to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11734-1
+01:15:52.295 --> 01:15:55.927
+change anything if things needed
+to be changed within the course
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11734-2
+01:15:55.927 --> 01:15:59.390
+before they end. I'm just any
+midterm feedback is always good
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11734-3
+01:15:59.390 --> 01:15:59.837
+to have.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11763-0
+01:16:00.547 --> 01:16:03.480
+So if you can't take that,
+that'd be great. It is
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11763-1
+01:16:03.480 --> 01:16:07.294
+anonymous, so I won't know your
+answers. However, I will let you
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11763-2
+01:16:07.294 --> 01:16:08.467
+know that I can see.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11829-0
+01:16:09.627 --> 01:16:13.060
+If someone has taken it, just
+not what the answers are. That
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11829-1
+01:16:13.060 --> 01:16:16.492
+being said, the more important
+survey is gonna be the end of
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11829-2
+01:16:16.492 --> 01:16:19.700
+term survey. That one is like
+completely anonymous. It's
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11829-3
+01:16:19.700 --> 01:16:23.245
+through a whole different type
+of thing that one more thorough
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11829-4
+01:16:23.245 --> 01:16:26.677
+and that one if you're not. If
+you're only going to take one
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11829-5
+01:16:26.677 --> 01:16:30.222
+survey, I would suggest doing
+that one, that one. I don't even
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11829-6
+01:16:30.222 --> 01:16:33.824
+get the results from until the
+course is closed. The grades are
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11829-7
+01:16:33.824 --> 01:16:36.187
+in. So there's No Fear of
+anything there.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11859-0
+01:16:38.217 --> 01:16:40.834
+Completely anonymous, but it's
+always helpful, good or bad
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11859-1
+01:16:40.834 --> 01:16:43.539
+feedback. Any feedback is good.
+So alright. I just wanted to
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11859-2
+01:16:43.539 --> 01:16:46.112
+mention that. Please take the
+surveys if you can and I'll
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11859-3
+01:16:46.112 --> 01:16:48.507
+probably e-mail you constantly
+bugging you anyway so.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11885-0
+01:16:49.847 --> 01:16:53.204
+Alright, I think that will be
+it. Then, if there's no
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11885-1
+01:16:53.204 --> 01:16:57.059
+questions, I guess I will see
+you next module. If you do have
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11885-2
+01:16:57.059 --> 01:17:00.976
+questions, just stick around and
+I'm more than happy to answer
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11885-3
+01:17:00.976 --> 01:17:01.287
+them.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11887-0
+01:17:02.577 --> 01:17:02.907
+O.
+
+01c21699-2a97-4c4a-a4a9-61869305d9b9/11892-0
+01:17:03.577 --> 01:17:05.227
+All right, take care.
